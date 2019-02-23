@@ -13,7 +13,7 @@ const providerURL = "http://54.205.230.215:9646";
 // const serverURL = "http://localhost:6769/";//t 
 // const providerURL = "http://localhost:9646";//t  
 
-const MUNITE_3 = 0//t 3*60*1000;
+const MUNITE_3 = 3*60*1000;
 const targetNetwork = "90";
 var platform = platform(); 
 var etz_web3;
@@ -111,7 +111,7 @@ window.onload = () => {
 };
 
 function initWeb3(){
-    if(platform!="pc")//t 注释暂时关闭检测
+    if(platform!="pc")
         return;
     // if(!window.web3_etz){//用来判断你是否安装了goETZ钱包插件
     if(!window.web3_etz && !window.web3){//用来判断你是否安装了goETZ或metamask钱包插件
@@ -374,7 +374,7 @@ function makeSaveData(txHash, keyTime){
     waitSettleCommit = keyTime;
     localStorage.setItem("waitSettleCommit", waitSettleCommit);
     localStorage.setItem("waitStartTime", String(Date.now()));
-    intervalUpdateHistoryList(1000);
+    intervalUpdateHistoryList(1000); 
     showWait();
 }
 
