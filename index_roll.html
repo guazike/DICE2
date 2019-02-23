@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no,minimum-scale=1,maximum-scale=1,user-scalable=no">
+  <meta name="theme-color" content="#000000">
+  <meta name="keywords" content="Ether, gambling, games, Ethereum, wei, finney, ether, ethereum gambling, de-centralized, de-centralised, gamble, Dapp, Ðapp, provably, fair, provably fair, crypto-currency, cryptocurrency, crypto, crypto-currency, cryptocurrency, bitcoin, hello james, etheroll, dicether, ethereum dice, tokenflip, etherflip">
+  <meta name="description" content="Enjoy fair games on Ethereum with low house edge and jackpots! Play Ethereum dice, Coin Flip, Two Dice and Etheroll now!">
+  <meta name="msapplication-TileColor" content="#da532c"><meta name="theme-color" content="#ffffff">
+<title>ETZ Dice</title>
+<link href="./css/app.css" rel="stylesheet">
+<!--link href="./css/scroll.css" rel="stylesheet"-->
+<script src="./js/jquery.min.js"></script>
+<style type="text/css">
+ .ball{overflow:hidden; color:#FF0000; position:absolute; font-size:16px;}
+ .star{overflow:hidden; color:#FF0000; position:absolute; font-size:4px;}
+</style>
+</head>
+
+<body>
+  <div style="width:100%; margin-top: 20px; align-content: center; float: none">
+        <div style="float:left; margin-left: 20px;"><a aria-current="false" href="index_coin.html" style="color:#aeaeae;">抛硬币</a></div>
+        <div style="float:left; margin-left: 20px;"><a aria-current="false" href="index_single_dice.html" style="color:#aeaeae;">掷骰子</a></div>
+        <div style="float:left; margin-left: 20px;"><a aria-current="false" href="index_double_dice.html" style="color:#aeaeae;">两个骰子</a></div>
+        <div style="float:left; margin-left: 20px;"><a aria-current="false" href="index_roll.html" style="color:#aeaeae;">以太零过山车</a></div>
+  </div>
+
+  <div class="game etheroll">
+    <section class="field">
+      
+    <h1>以太零过山车</h1>
+    <div class="field">
+      <div id="sliderCont" class="slider" style="position: relative;">
+        <div id="sliderBack0" class="bar bar-0" style="position: absolute; left: 0px; right: 320px;"></div>
+        
+        <div id="sliderBar" class="handle handle-0 " tabindex="0" role="slider" aria-valuenow="69" aria-valuemin="1" aria-valuemax="97" style="position: absolute; z-index: 1; left: 150px;"></div>
+      </div>
+    <section><label>1%</label><label>25%</label><label>50%</label><label>75%</label><label>97%</label></section>
+    <span id="selectWarning">调整您的胜率</span>
+    </div>
+
+        
+    <div class="bets"><div class="quick-bets">
+          <button class="" id="betNumBtn0">15</button><button class="" id="betNumBtn1">30</button><button class="" id="betNumBtn2">45</button><button id="betNumBtnMax">最大</button>
+    </div>
+    <div class="field"><button id="betNumSub">−</button><input type="text" value="18" id="betNum"><button id="betNumAdd">+</button><span>您的赌注</span></div></div>
+    <div class="place-bet"><button id="betBtn">下注！</button><!--p>建议的汽油价格(Gas Price): 12</p--></div>
+    <div id="waitSubmit" style="display:none; color: #6BDC6E"><span>投注已提交！</span><br><br><span>等待以太零...</span></div>
+        <div id="resultPanel" style="display:none">
+          <h1 id="resultPanelTitle">您</h1>
+          <div class="resultBox">
+            <div class="resultBox_left">
+              <p>您将赌注押在</p><br><br>
+              <div id="betOn"></div>
+            </div>
+            <div class="resultBox_line">
+            </div>
+            <div class="resultBox_right">
+              <p>开奖结果</p><br><br>
+              <div id="betResult"></div>
+            </div>
+          </div>
+          <button id="restartBtn">再玩一次</button>
+        </div>
+    </section>
+  
+  <section class="returns">
+    <div class="odds"><h3>获胜机会</h3><span id="winChance">0.00%</span></div>
+
+    <div class="bet-return"><h3>赢得投注</h3><span id="rateLabel">1.94×</span><label>您将赢得<span id="winCoin">0.1</span><small>以太零</small></label><i><span id="feeRateLabel">2% 费用</span>
+    <span class="ethers" id="bigAwardDes"><small>，1以太零积累大奖</small></span></i></div>
+
+    <div class="jackpot"><h3>大奖包括</h3><span><span id="bigAwardNum">0.000</span><small>以太零</small></span>
+    <i><span style="color: #64c864;" id="luckyNumber"><small>幸运数字是888</small></span>
+    <span style="color: #aa3344" id="bigAwardMinDes"><small>投注100以太零以获得资格</small></span></i>
+    </div>
+  </section>
+  
+<section class="history">
+  <div class="history">
+    <h3>游戏历史<button class="" id="onlySelfBtn">只看我的</button></h3>
+    <div>
+        <header><label>玩家</label><label>赌注</label><label></label><label>结果</label><label></label><label class="jackpot"></label><label></label></header>
+            <div class="scrollbar-container" id="historyContainer" style="overflow-y:scroll;overflow-x:hidden">
+                <ul id="historyItemList">
+                    
+                </ul>
+        </div>
+    </div>
+  </section>
+
+</div>
+
+  <script type="text/javascript" src="./js/plantformCheck.js"></script> 
+  <script type="text/javascript" src="./js/sha3.min.js"></script> 
+  <script type="text/javascript" src="./out/main_roll.js"></script>
+  <script type="text/javascript" src="./js/star.js"></script>
+  <!--script type="text/javascript" src="./js/scroll.js"></script-->
+
+</body></html>

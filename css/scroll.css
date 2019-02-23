@@ -1,0 +1,33 @@
+﻿#scrollContainer {
+  width: 100%;
+  height: 480px;
+  border: solid 1px grey;
+  margin: 0 auto;
+  position: relative;
+  overflow-y: scroll;
+}
+
+#scrollContent {
+  width: 100%;
+  position: relative;
+  left: 0;
+  padding: 5px;
+}
+
+#scrollBarBg {
+  width: 10px;
+  height: 480px;
+  background-color: #999;
+  position: relative;
+  right: 0;
+}
+
+#scrollBar {
+  width: 8px;
+  height: 30px;
+  background-color: #333;
+  position: relative;
+  left: 1;
+  top: 0;
+  cursor: pointer;
+}
