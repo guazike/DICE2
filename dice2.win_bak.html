@@ -8,14 +8,212 @@
     <meta name="theme-color" content="#000000">
     <meta name="keywords" content="Ether, gambling, games, Ethereum, wei, finney, ether, ethereum gambling, de-centralized, de-centralised, gamble, Dapp, Ðapp, provably, fair, provably fair, crypto-currency, cryptocurrency, crypto, crypto-currency, cryptocurrency, bitcoin, hello james, etheroll, dicether, ethereum dice, tokenflip, etherflip">
     <meta name="description" content="Enjoy fair games on Ethereum with low house edge and jackpots! Play Ethereum dice, Coin Flip, Two Dice and Etheroll now!">
-    <!-- <link rel="manifest" href="https://dice2.win/manifest.json"> -->
-    <!-- <link rel="apple-touch-icon" sizes="180x180" href="https://dice2.win/favicon/apple-touch-icon.png">
+    <link rel="manifest" href="https://dice2.win/manifest.json">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://dice2.win/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="https://dice2.win/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="https://dice2.win/favicon/favicon-16x16.png"> -->
+    <link rel="icon" type="image/png" sizes="16x16" href="https://dice2.win/favicon/favicon-16x16.png">
     <link rel="manifest" href="https://dice2.win/favicon/site.webmanifest">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
+    <script type="text/javascript" async="" src="./dice2.win_files/ecommerce.js"></script>
+    <script async="" src="./dice2.win_files/analytics.js"></script>
+    <script src="./dice2.win_files/OneSignalSDK.js" async=""></script>
+    <script>
+    var OneSignal = window.OneSignal || [];
+    OneSignal.push(function() { OneSignal.init({ appId: "57715f88-0385-478f-af95-66a99743fbb0" }) })
+    </script>
     <title>dice2.win</title>
+    <!-- <script type="text/javascript">
+    window.NREUM || (NREUM = {}), __nr_require = function(e, r, t) {
+        function o(n) { if (!r[n]) { var t = r[n] = { exports: {} };
+                e[n][0].call(t.exports, function(t) { return o(e[n][1][t] || t) }, t, t.exports) } return r[n].exports } if ("function" == typeof __nr_require) return __nr_require; for (var n = 0; n < t.length; n++) o(t[n]); return o }({ 1: [function(t, n, e) {
+            function r(t) { try { s.console && console.log(t) } catch (t) {} } var o, i = t("ee"),
+                a = t(15),
+                s = {}; try { o = localStorage.getItem("__nr_flags").split(","), console && "function" == typeof console.log && (s.console = !0, -1 !== o.indexOf("dev") && (s.dev = !0), -1 !== o.indexOf("nr_dev") && (s.nrDev = !0)) } catch (t) {} s.nrDev && i.on("internal-error", function(t) { r(t.stack) }), s.dev && i.on("fn-err", function(t, n, e) { r(e.stack) }), s.dev && (r("NR AGENT IN DEVELOPMENT MODE"), r("flags: " + a(s, function(t, n) { return t }).join(", "))) }, {}], 2: [function(n, t, e) {
+            function i(t, n) { var e = n ? null : c.now();
+                a("err", [t, e]) } var a = n("handle"),
+                s = n(16),
+                r = n("ee"),
+                c = n("loader"),
+                o = n("gos"),
+                f = window.onerror,
+                u = !1,
+                d = "nr@seenError",
+                l = 0;
+            c.features.err = !0, n(1), window.onerror = function(t, n, e, r, o) { try { l ? l -= 1 : i(o || new function(t, n, e) { this.message = t || "Uncaught error with no additional information", this.sourceURL = n, this.line = e }(t, n, e), !0) } catch (t) { try { a("ierr", [t, c.now(), !0]) } catch (t) {} } return "function" == typeof f && f.apply(this, s(arguments)) }; try { throw new Error } catch (t) { "stack" in t && (n(8), n(7), "addEventListener" in window && n(5), c.xhrWrappable && n(9), u = !0) } r.on("fn-start", function(t, n, e) { u && (l += 1) }), r.on("fn-err", function(t, n, e) { u && !e[d] && (o(e, d, function() { return !0 }), this.thrown = !0, i(e)) }), r.on("fn-end", function() { u && !this.thrown && 0 < l && (l -= 1) }), r.on("internal-error", function(t) { a("ierr", [t, c.now(), !0]) }) }, {}], 3: [function(t, n, e) { t("loader").features.ins = !0 }, {}], 4: [function(t, n, e) {
+            function r(t) {} if (window.performance && window.performance.timing && window.performance.getEntriesByType) { var o = t("ee"),
+                    i = t("handle"),
+                    a = t(8),
+                    s = t(7),
+                    c = "learResourceTimings",
+                    f = "addEventListener",
+                    u = "resourcetimingbufferfull",
+                    d = "bstResource",
+                    l = "resource",
+                    h = "fn-start",
+                    p = "fn-end",
+                    m = "bstTimer",
+                    w = "pushState",
+                    v = t("loader");
+                v.features.stn = !0, t(6); var y = NREUM.o.EV;
+                o.on(h, function(t, n) { t[0] instanceof y && (this.bstStart = v.now()) }), o.on(p, function(t, n) { var e = t[0];
+                    e instanceof y && i("bst", [e, n, this.bstStart, v.now()]) }), a.on(h, function(t, n, e) { this.bstStart = v.now(), this.bstType = e }), a.on(p, function(t, n) { i(m, [n, this.bstStart, v.now(), this.bstType]) }), s.on(h, function() { this.bstStart = v.now() }), s.on(p, function(t, n) { i(m, [n, this.bstStart, v.now(), "requestAnimationFrame"]) }), o.on(w + "-start", function(t) { this.time = v.now(), this.startPath = location.pathname + location.hash }), o.on(w + "-end", function(t) { i("bstHist", [location.pathname + location.hash, this.startPath, this.time]) }), f in window.performance && (window.performance["c" + c] ? window.performance[f](u, function(t) { i(d, [window.performance.getEntriesByType(l)]), window.performance["c" + c]() }, !1) : window.performance[f]("webkit" + u, function(t) { i(d, [window.performance.getEntriesByType(l)]), window.performance["webkitC" + c]() }, !1)), document[f]("scroll", r, { passive: !0 }), document[f]("keypress", r, !1), document[f]("click", r, !1) } }, {}], 5: [function(t, n, e) {
+            function r(t) { for (var n = t; n && !n.hasOwnProperty(u);) n = Object.getPrototypeOf(n);
+                n && o(n) }
+
+            function o(t) { s.inPlace(t, [u, d], "-", i) }
+
+            function i(t, n) { return t[1] } var a = t("ee").get("events"),
+                s = t(18)(a, !0),
+                c = t("gos"),
+                f = XMLHttpRequest,
+                u = "addEventListener",
+                d = "removeEventListener";
+            n.exports = a, "getPrototypeOf" in Object ? (r(document), r(window), r(f.prototype)) : f.prototype.hasOwnProperty(u) && (o(window), o(f.prototype)), a.on(u + "-start", function(t, n) { var e = t[1],
+                    r = c(e, "nr@wrapped", function() { var t = { object: function() { if ("function" == typeof e.handleEvent) return e.handleEvent.apply(e, arguments) }, function: e } [typeof e]; return t ? s(t, "fn-", null, t.name || "anonymous") : e });
+                this.wrapped = t[1] = r }), a.on(d + "-start", function(t) { t[1] = this.wrapped || t[1] }) }, {}], 6: [function(t, n, e) { var r = t("ee").get("history"),
+                o = t(18)(r);
+            n.exports = r, o.inPlace(window.history, ["pushState", "replaceState"], "-") }, {}], 7: [function(t, n, e) { var r = t("ee").get("raf"),
+                o = t(18)(r),
+                i = "equestAnimationFrame";
+            n.exports = r, o.inPlace(window, ["r" + i, "mozR" + i, "webkitR" + i, "msR" + i], "raf-"), r.on("raf-start", function(t) { t[0] = o(t[0], "fn-") }) }, {}], 8: [function(t, n, e) { var r = t("ee").get("timer"),
+                o = t(18)(r),
+                i = "setTimeout",
+                a = "setInterval",
+                s = "clearTimeout";
+            n.exports = r, o.inPlace(window, [i, "setImmediate"], i + "-"), o.inPlace(window, [a], a + "-"), o.inPlace(window, [s, "clearImmediate"], s + "-"), r.on(a + "-start", function(t, n, e) { t[0] = o(t[0], "fn-", null, e) }), r.on(i + "-start", function(t, n, e) { this.method = e, this.timerDuration = isNaN(t[1]) ? 0 : +t[1], t[0] = o(t[0], "fn-", this, e) }) }, {}], 9: [function(t, n, e) {
+            function r(t, n) { f.inPlace(n, ["onreadystatechange"], "fn-", a) }
+
+            function o() { var t = c.context(this);
+                3 < this.readyState && !t.resolved && (t.resolved = !0, c.emit("xhr-resolved", [], this)), f.inPlace(this, w, "fn-", a) }
+
+            function i() { for (var t = 0; t < v.length; t++) r(0, v[t]);
+                v.length && (v = []) }
+
+            function a(t, n) { return n } t(5); var s = t("ee"),
+                c = s.get("xhr"),
+                f = t(18)(c),
+                u = NREUM.o,
+                d = u.XHR,
+                l = u.MO,
+                h = u.PR,
+                p = u.SI,
+                m = "readystatechange",
+                w = ["onload", "onerror", "onabort", "onloadstart", "onloadend", "onprogress", "ontimeout"],
+                v = [];
+            n.exports = c; var y = window.XMLHttpRequest = function(t) { var n = new d(t); try { c.emit("new-xhr", [n], n), n.addEventListener(m, o, !1) } catch (t) { try { c.emit("internal-error", [t]) } catch (t) {} } return n }; if (function(t, n) { for (var e in t) n[e] = t[e] }(d, y), y.prototype = d.prototype, f.inPlace(y.prototype, ["open", "send"], "-xhr-", a), c.on("send-xhr-start", function(t, n) { var e;
+                    r(0, n), e = n, v.push(e), l && (g ? g.then(i) : p ? p(i) : (b = -b, x.data = b)) }), c.on("open-xhr-start", r), l) { var g = h && h.resolve(); if (!p && !h) { var b = 1,
+                        x = document.createTextNode(b);
+                    new l(i).observe(x, { characterData: !0 }) } } else s.on("fn-end", function(t) { t[0] && t[0].type === m || i() }) }, {}], 10: [function(t, n, e) {
+            function r(t) { var n = this.params,
+                    e = this.metrics; if (!this.ended) { this.ended = !0; for (var r = 0; r < u; r++) t.removeEventListener(f[r], this.listener, !1); if (!n.aborted) { if (e.duration = s.now() - this.startTime, 4 === t.readyState) { n.status = t.status; var o = function(t, n) { var e = t.responseType; if ("json" === e && null !== n) return n; var r = "arraybuffer" === e || "blob" === e || "json" === e ? t.response : t.responseText; return l(r) }(t, this.lastSize); if (o && (e.rxSize = o), this.sameOrigin) { var i = t.getResponseHeader("X-NewRelic-App-Data");
+                                i && (n.cat = i.split(", ").pop()) } } else n.status = 0;
+                        e.cbTime = this.cbTime, c.emit("xhr-done", [t], t), a("xhr", [n, e, this.startTime]) } } } var s = t("loader"); if (s.xhrWrappable) { var a = t("handle"),
+                    i = t(11),
+                    c = t("ee"),
+                    f = ["load", "error", "abort", "timeout"],
+                    u = f.length,
+                    o = t("id"),
+                    d = t(14),
+                    l = t(13),
+                    h = window.XMLHttpRequest;
+                s.features.xhr = !0, t(9), c.on("new-xhr", function(t) { var n = this;
+                    n.totalCbs = 0, n.called = 0, n.cbTime = 0, n.end = r, n.ended = !1, n.xhrGuids = {}, n.lastSize = null, d && (34 < d || d < 10) || window.opera || t.addEventListener("progress", function(t) { n.lastSize = t.loaded }, !1) }), c.on("open-xhr-start", function(t) { var n, e, r, o;
+                    this.params = { method: t[0] }, n = this, e = t[1], r = i(e), (o = n.params).host = r.hostname + ":" + r.port, o.pathname = r.pathname, n.sameOrigin = r.sameOrigin, this.metrics = {} }), c.on("open-xhr-end", function(t, n) { "loader_config" in NREUM && "xpid" in NREUM.loader_config && this.sameOrigin && n.setRequestHeader("X-NewRelic-ID", NREUM.loader_config.xpid) }), c.on("send-xhr-start", function(t, n) { var e = this.metrics,
+                        r = t[0],
+                        o = this; if (e && r) { var i = l(r);
+                        i && (e.txSize = i) } this.startTime = s.now(), this.listener = function(t) { try { "abort" === t.type && (o.params.aborted = !0), ("load" !== t.type || o.called === o.totalCbs && (o.onloadCalled || "function" != typeof n.onload)) && o.end(n) } catch (t) { try { c.emit("internal-error", [t]) } catch (t) {} } }; for (var a = 0; a < u; a++) n.addEventListener(f[a], this.listener, !1) }), c.on("xhr-cb-time", function(t, n, e) { this.cbTime += t, n ? this.onloadCalled = !0 : this.called += 1, this.called !== this.totalCbs || !this.onloadCalled && "function" == typeof e.onload || this.end(e) }), c.on("xhr-load-added", function(t, n) { var e = "" + o(t) + !!n;
+                    this.xhrGuids && !this.xhrGuids[e] && (this.xhrGuids[e] = !0, this.totalCbs += 1) }), c.on("xhr-load-removed", function(t, n) { var e = "" + o(t) + !!n;
+                    this.xhrGuids && this.xhrGuids[e] && (delete this.xhrGuids[e], this.totalCbs -= 1) }), c.on("addEventListener-end", function(t, n) { n instanceof h && "load" === t[0] && c.emit("xhr-load-added", [t[1], t[2]], n) }), c.on("removeEventListener-end", function(t, n) { n instanceof h && "load" === t[0] && c.emit("xhr-load-removed", [t[1], t[2]], n) }), c.on("fn-start", function(t, n, e) { n instanceof h && ("onload" === e && (this.onload = !0), ("load" === (t[0] && t[0].type) || this.onload) && (this.xhrCbStart = s.now())) }), c.on("fn-end", function(t, n) { this.xhrCbStart && c.emit("xhr-cb-time", [s.now() - this.xhrCbStart, this.onload, n], n) }) } }, {}], 11: [function(t, n, e) { n.exports = function(t) { var n = document.createElement("a"),
+                    e = window.location,
+                    r = {};
+                n.href = t, r.port = n.port; var o = n.href.split("://");!r.port && o[1] && (r.port = o[1].split("/")[0].split("@").pop().split(":")[1]), r.port && "0" !== r.port || (r.port = "https" === o[0] ? "443" : "80"), r.hostname = n.hostname || e.hostname, r.pathname = n.pathname, r.protocol = o[0], "/" !== r.pathname.charAt(0) && (r.pathname = "/" + r.pathname); var i = !n.protocol || ":" === n.protocol || n.protocol === e.protocol,
+                    a = n.hostname === document.domain && n.port === e.port; return r.sameOrigin = i && (!n.hostname || a), r } }, {}], 12: [function(t, n, e) {
+            function r() {}
+
+            function o(t, n, e) { return function() { return i(t, [f.now()].concat(s(arguments)), n ? null : this, e), n ? void 0 : this } } var i = t("handle"),
+                a = t(15),
+                s = t(16),
+                c = t("ee").get("tracer"),
+                f = t("loader"),
+                u = NREUM;
+            void 0 === window.newrelic && (newrelic = u); var d = "api-",
+                l = d + "ixn-";
+            a(["setPageViewName", "setCustomAttribute", "setErrorHandler", "finished", "addToTrace", "inlineHit", "addRelease"], function(t, n) { u[n] = o(d + n, !0, "api") }), u.addPageAction = o(d + "addPageAction", !0), u.setCurrentRouteName = o(d + "routeName", !0), n.exports = newrelic, u.interaction = function() { return (new r).get() }; var h = r.prototype = { createTracer: function(t, n) { var e = {},
+                        r = this,
+                        o = "function" == typeof n; return i(l + "tracer", [f.now(), t, e], r),
+                        function() { if (c.emit((o ? "" : "no-") + "fn-start", [f.now(), r, o], e), o) try { return n.apply(this, arguments) } catch (t) { throw c.emit("fn-err", [arguments, this, t], e), t } finally { c.emit("fn-end", [f.now()], e) } } } };
+            a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","), function(t, n) { h[n] = o(l + n) }), newrelic.noticeError = function(t) { "string" == typeof t && (t = new Error(t)), i("err", [t, f.now()]) } }, {}], 13: [function(t, n, e) { n.exports = function(t) { if ("string" == typeof t && t.length) return t.length; if ("object" == typeof t) { if ("undefined" != typeof ArrayBuffer && t instanceof ArrayBuffer && t.byteLength) return t.byteLength; if ("undefined" != typeof Blob && t instanceof Blob && t.size) return t.size; if (!("undefined" != typeof FormData && t instanceof FormData)) try { return JSON.stringify(t).length } catch (t) { return } } } }, {}], 14: [function(t, n, e) { var r = 0,
+                o = navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);
+            o && (r = +o[1]), n.exports = r }, {}], 15: [function(t, n, e) { var i = Object.prototype.hasOwnProperty;
+            n.exports = function(t, n) { var e = [],
+                    r = "",
+                    o = 0; for (r in t) i.call(t, r) && (e[o] = n(r, t[r]), o += 1); return e } }, {}], 16: [function(t, n, e) { n.exports = function(t, n, e) { n || (n = 0), void 0 === e && (e = t ? t.length : 0); for (var r = -1, o = e - n || 0, i = Array(o < 0 ? 0 : o); ++r < o;) i[r] = t[n + r]; return i } }, {}], 17: [function(t, n, e) { n.exports = { exists: void 0 !== window.performance && window.performance.timing && void 0 !== window.performance.timing.navigationStart } }, {}], 18: [function(t, n, e) {
+            function d(t) { return !(t && t instanceof Function && t.apply && !t[h]) } var r = t("ee"),
+                l = t(16),
+                h = "nr@original",
+                p = Object.prototype.hasOwnProperty,
+                a = !1;
+            n.exports = function(o, i) {
+                function c(o, i, a, s) {
+                    function t() { var n, e, r, t; try { e = this, n = l(arguments), r = "function" == typeof a ? a(n, e) : a || {} } catch (t) { u([t, "", [n, e, s], r]) } f(i + "start", [n, e, s], r); try { return t = o.apply(e, n) } catch (t) { throw f(i + "err", [n, e, t], r), t } finally { f(i + "end", [n, e, t], r) } } return d(o) ? o : (i || (i = ""), function(e, t) { if (Object.defineProperty && Object.keys) try { var n = Object.keys(e); return n.forEach(function(n) { Object.defineProperty(t, n, { get: function() { return e[n] }, set: function(t) { return e[n] = t } }) }) } catch (t) { u([t]) }
+                        for (var r in e) p.call(e, r) && (t[r] = e[r]) }(t[h] = o, t), t) }
+
+                function f(n, e, r) { if (!a || i) { var t = a;
+                        a = !0; try { o.emit(n, e, r, i) } catch (t) { u([t, n, e, r]) } a = t } }
+
+                function u(t) { try { o.emit("internal-error", t) } catch (t) {} } return o || (o = r), c.inPlace = function(t, n, e, r) { e || (e = ""); var o, i, a, s = "-" === e.charAt(0); for (a = 0; a < n.length; a++) d(o = t[i = n[a]]) || (t[i] = c(o, s ? i + e : e, r, i)) }, c.flag = h, c } }, {}], ee: [function(t, n, e) {
+            function o() {}
+
+            function i() { return new o }
+
+            function a() {
+                (m.api || m.feature) && (v.aborted = !0, m = v.backlog = {}) } var s = "nr@context",
+                c = t("gos"),
+                p = t(15),
+                m = {},
+                w = {},
+                v = n.exports = function n(f) {
+                    function u(t) { return t && t instanceof o ? t : t ? c(t, s, i) : i() }
+
+                    function e(t, n, e, r) { if (!v.aborted || r) { f && f(t, n, e); for (var o = u(e), i = d(t), a = i.length, s = 0; s < a; s++) i[s].apply(o, n); var c = m[l[t]]; return c && c.push([h, t, n, o]), o } }
+
+                    function d(t) { return r[t] || [] } var r = {},
+                        l = {},
+                        h = { on: function(t, n) { r[t] = d(t).concat(n) }, emit: e, get: function(t) { return w[t] = w[t] || n(e) }, listeners: d, context: u, buffer: function(t, e) { p(t, function(t, n) { e = e || "feature", (l[n] = e) in m || (m[e] = []) }) }, abort: a, aborted: !1 }; return h }();
+            v.backlog = m }, {}], gos: [function(t, n, e) { var o = Object.prototype.hasOwnProperty;
+            n.exports = function(t, n, e) { if (o.call(t, n)) return t[n]; var r = e(); if (Object.defineProperty && Object.keys) try { return Object.defineProperty(t, n, { value: r, writable: !0, enumerable: !1 }), r } catch (t) {}
+                return t[n] = r } }, {}], handle: [function(t, n, e) {
+            function r(t, n, e, r) { o.buffer([t], r), o.emit(t, n, e) } var o = t("ee").get("handle");
+            (n.exports = r).ee = o }, {}], id: [function(t, n, e) { var r = 1,
+                o = "nr@id",
+                i = t("gos");
+            n.exports = function(t) { var n = typeof t; return !t || "object" !== n && "function" !== n ? -1 : t === window ? 0 : i(t, o, function() { return r++ }) } }, {}], loader: [function(t, n, e) {
+            function r() { if (!b++) { var e = g.info = NREUM.info,
+                        t = d.getElementsByTagName("script")[0]; if (setTimeout(f.abort, 3e4), !(e && e.licenseKey && e.applicationID && t)) return f.abort();
+                    c(v, function(t, n) { e[t] || (e[t] = n) }), s("mark", ["onload", i() + g.offset], null, "api"); var n = d.createElement("script");
+                    n.src = "https://" + e.agent, t.parentNode.insertBefore(n, t) } }
+
+            function o() { s("mark", ["domContent", i() + g.offset], null, "api") }
+
+            function i() { return x.exists && performance.now ? Math.round(performance.now()) : (a = Math.max((new Date).getTime(), a)) - g.offset } var a = (new Date).getTime(),
+                s = t("handle"),
+                c = t(15),
+                f = t("ee"),
+                u = window,
+                d = u.document,
+                l = "addEventListener",
+                h = "attachEvent",
+                p = u.XMLHttpRequest,
+                m = p && p.prototype;
+            NREUM.o = { ST: setTimeout, SI: u.setImmediate, CT: clearTimeout, XHR: p, REQ: u.Request, EV: u.Event, PR: u.Promise, MO: u.MutationObserver }; var w = "" + location,
+                v = { beacon: "bam.nr-data.net", errorBeacon: "bam.nr-data.net", agent: "js-agent.newrelic.com/nr-1071.min.js" },
+                y = p && m && m[l] && !/CriOS/.test(navigator.userAgent),
+                g = n.exports = { offset: a, now: i, origin: w, features: {}, xhrWrappable: y };
+            t(12), d[l] ? (d[l]("DOMContentLoaded", o, !1), u[l]("load", r, !1)) : (d[h]("onreadystatechange", function() { "complete" === d.readyState && o() }), u[h]("onload", r)), s("mark", ["firstbyte", a], null, "api"); var b = 0,
+                x = t(17) }, {}] }, {}, ["loader", 2, 10, 4, 3]), NREUM.info = { beacon: "bam.nr-data.net", errorBeacon: "bam.nr-data.net", licenseKey: "d777df5792", applicationID: "156735242", sa: 1 }
+    </script> -->
+    // <link href="./dice2.win_files/main.9f7398cc.css" rel="stylesheet">
     <style type="text/css">
     @keyframes blinker {
         50% {
@@ -6627,17 +6825,17 @@
             <div>
                 <main>
                     <div class="top-bar"><a class="logo" href="https://dice2.win/">dice2.win</a>
-                        <!-- <menu><a class="active" aria-current="true" href="https://dice2.win/">Games</a><a aria-current="false" href="https://dice2.win/faq">Fair play</a>
+                        <menu><a class="active" aria-current="true" href="https://dice2.win/">Games</a><a aria-current="false" href="https://dice2.win/faq">Fair play</a>
                             <section><a target="_blank" href="https://t.me/joinchat/H79b9g70VlyBMUxjym-SNw"><i class="telegram"></i></a><a target="_blank" href="https://twitter.com/dice2win"><i class="twitter"></i></a><a target="_blank" href="mailto:dice2win.helpdesk@gmail.com"><i class="email"></i></a></section>
                             <div class="flag-select ">
                                 <div class="selected--flag--option " tabindex="0" style="font-size: 16px;"><span class="country-flag" style="width: 16px; height: 16px;"><img src="./dice2.win_files/us.026a8970.svg"><span class="country-label">English</span></span><span class="arrow-down ">▾</span></div>
                             </div>
-                        </menu> -->
+                        </menu>
                     </div>
                     <div class="home">
-                        <h1>采用以太幣行付费的公平赌博</h1>
-                        <h2><a target="_blank" href="https://dice2.win/faq">可被证明的公平性</a>博彩游戏由简单的<a target="_blank" href="https://kovan.etherscan.io/address/0xD1CEeeeee83F8bCF3BEDad437202b6154E9F5405">开源合约提供支持</a><br>无需注册或押金，只有1％的胜负边缘以及大奖！<br></h2>
-                        <!-- <section class="">
+                        <h1>Fair games that pay Ether</h1>
+                        <h2><a target="_blank" href="https://dice2.win/faq">Provably fair</a> bets backed by simple <a target="_blank" href="https://kovan.etherscan.io/address/0xD1CEeeeee83F8bCF3BEDad437202b6154E9F5405">open-sourced contract</a><br>No sign-ups or deposits, just 1% house edge and jackpot!<br></h2>
+                        <section class="">
                             <ul>
                                 <li>
                                     <h3>24h wagers</h3><label><span>687.22</span><small>ETH</small></label><span>1791 bets</span>
@@ -6660,24 +6858,23 @@
                                     </ul>
                                 </li>
                             </ul>
-                        </section> -->
+                        </section>
                         <ul class="games">
-                            <li class="coin-flip"><a aria-current="false" href="index_coin.html">
-                                    <h1>抛硬币</h1><span>正面或背面？一半对一半</span><span>获胜就能赢得1.98倍的投注</span>
-                                    <h1> </h1><label>现在开始游戏</label>
+                            <li class="coin-flip"><a aria-current="false" href="https://dice2.win/games/coin-flip">
+                                    <h1>Coin flip</h1><span>50% win chance</span><span>Winning bet pays 1.98×</span>
+                                    <h1> </h1><label>Play now</label>
                                 </a></li>
-                            <li class="one-dice"><a aria-current="false" href="index_single_dice.html">
-                                    <h1>掷骰子</h1><span>在数字1至6之间下注</span><span>获胜就能赢得高达5.94倍的投注</span>
-                                    <h1> </h1><label>现在开始游戏</label>
+                            <li class="one-dice"><a aria-current="false" href="https://dice2.win/games/dice">
+                                    <h1>Roll a dice</h1><span>Bet on numbers, 1 to 6</span><span>Winning bet pays up to 5.94×</span>
+                                    <h1> </h1><label>Play now</label>
                                 </a></li>
-                            <li class="two-dice"><a aria-current="false" href="index_double_dice.html">
-                                    <h1>两个骰子</h1><span>投注总和，从数字2至12中选择</span><span>获胜就能赢得高达35.64倍的投注</span>
-                                    <h1> </h1><label>现在开始游戏</label>
+                            <li class="two-dice"><a aria-current="false" href="https://dice2.win/games/two-dice">
+                                    <h1>Two dice</h1><span>Bet on sum, 2 to 12</span><span>Winning bet pays up to 35.64×</span>
+                                    <h1> </h1><label>Play now</label>
                                 </a></li>
-                            <li data-clicks="true" class="etheroll"><a aria-current="false" href="index_roll.html">
-                                    <h1>以太零过山车</h1>
-                                    <span>任何胜率，1％到97％</span><span>获胜就能赢得高达99倍的投注</span>
-                                    <h1> </h1><label>现在开始游戏</label>
+                            <li data-clicks="true" class="etheroll"><a aria-current="false" href="https://dice2.win/games/etheroll">
+                                    <h1>Etheroll</h1>
+                                    <h1> </h1><span>ANY win chance, 1% to 97%</span><span>Winning bet pays up to 99×</span><label>Play now</label>
                                 </a></li>
                         </ul>
                     </div>
@@ -6699,7 +6896,7 @@
             </div>
         </div>
     </div>
-    <!-- // <script type="text/javascript" src="./dice2.win_files/main.5aed83c0.js"></script><iframe src="./dice2.win_files/webPushAnalytics.html" style="display: none;"></iframe> -->
+    // <script type="text/javascript" src="./dice2.win_files/main.5aed83c0.js"></script><iframe src="./dice2.win_files/webPushAnalytics.html" style="display: none;"></iframe>
 </body>
 
 </html>
