@@ -258,7 +258,7 @@ function initSlider(){
 
 
 function initGame(){
-    initSlider();
+    initSlider(); 
     //初始化40个二进制字符串
     for(let z=0; z<40; z++){
         maskBinStr100+="0";

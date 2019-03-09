@@ -1,1 +1,747 @@
-var _0x817c=["\x30\x78\x35\x31\x33\x37\x38\x31\x34\x65\x38\x35\x34\x66\x61\x31\x30\x65\x65\x36\x64\x38\x61\x63\x33\x61\x64\x38\x33\x36\x64\x33\x34\x35\x64\x62\x36\x65\x64\x34\x34\x65","\x68\x74\x74\x70\x3A\x2F\x2F\x35\x34\x2E\x32\x30\x35\x2E\x32\x33\x30\x2E\x32\x31\x35\x3A\x36\x37\x36\x39\x2F","\x68\x74\x74\x70\x3A\x2F\x2F\x35\x34\x2E\x32\x30\x35\x2E\x32\x33\x30\x2E\x32\x31\x35\x3A\x39\x36\x34\x36","\x39\x30","","\x5F\x6E\x65\x77\x43\x4F\x4F","\x61\x64\x64\x72\x65\x73\x73","\x61\x64\x64\x43\x4F\x4F","\x6E\x6F\x6E\x70\x61\x79\x61\x62\x6C\x65","\x66\x75\x6E\x63\x74\x69\x6F\x6E","\x72\x65\x76\x65\x61\x6C","\x75\x69\x6E\x74\x32\x35\x36","\x70\x6C\x61\x63\x65\x42\x6C\x6F\x63\x6B\x4E\x75\x6D","\x73\x65\x74\x74\x6C\x65\x42\x65\x74","\x6B\x69\x6C\x6C","\x6A\x61\x63\x6B\x70\x6F\x74\x53\x69\x7A\x65","\x75\x69\x6E\x74\x31\x32\x38","\x76\x69\x65\x77","\x64\x65\x61\x6C\x46\x61\x69\x6C\x4C\x69\x73\x74","\x62\x65\x74\x4D\x61\x73\x6B","\x6D\x6F\x64\x75\x6C\x6F","\x63\x6F\x6D\x6D\x69\x74\x4C\x61\x73\x74\x42\x6C\x6F\x63\x6B","\x63\x6F\x6D\x6D\x69\x74","\x76","\x75\x69\x6E\x74\x38","\x72","\x62\x79\x74\x65\x73\x33\x32","\x73","\x70\x6C\x61\x63\x65\x42\x65\x74","\x70\x61\x79\x61\x62\x6C\x65","\x75\x6E\x64\x65\x61\x6C\x42\x65\x74\x4E\x75\x6D","\x6F\x77\x6E\x65\x72","\x64\x65\x61\x6C\x46\x61\x69\x6C\x4E\x75\x6D","\x6D\x61\x78\x50\x72\x6F\x66\x69\x74","\x62\x65\x6E\x65\x66\x69\x63\x69\x61\x72\x79","\x77\x69\x74\x68\x64\x72\x61\x77\x41\x6D\x6F\x75\x6E\x74","\x77\x69\x74\x68\x64\x72\x61\x77\x46\x75\x6E\x64\x73","\x61\x63\x63\x65\x70\x74\x4E\x65\x78\x74\x4F\x77\x6E\x65\x72","\x5F\x6E\x65\x78\x74\x4F\x77\x6E\x65\x72","\x61\x70\x70\x72\x6F\x76\x65\x4E\x65\x78\x74\x4F\x77\x6E\x65\x72","\x69\x6E\x63\x72\x65\x61\x73\x65\x41\x6D\x6F\x75\x6E\x74","\x69\x6E\x63\x72\x65\x61\x73\x65\x4A\x61\x63\x6B\x70\x6F\x74","\x63\x6F\x6F\x41\x64\x64\x72\x65\x73\x73","\x6C\x6F\x63\x6B\x65\x64\x49\x6E\x42\x65\x74\x73","\x72\x65\x66\x75\x6E\x64\x42\x65\x74","\x5F\x6D\x61\x78\x50\x72\x6F\x66\x69\x74","\x73\x65\x74\x4D\x61\x78\x50\x72\x6F\x66\x69\x74","\x63\x6F\x6E\x73\x74\x72\x75\x63\x74\x6F\x72","\x66\x61\x6C\x6C\x62\x61\x63\x6B","\x67\x61\x6D\x62\x6C\x65\x72","\x6D\x61\x73\x6B","\x75\x69\x6E\x74\x34\x30","\x61\x6D\x6F\x75\x6E\x74","\x70\x6C\x61\x79\x63\x65\x42\x6C\x6F\x63\x6B","\x4F\x6E\x50\x6C\x61\x63\x65\x42\x65\x74","\x65\x76\x65\x6E\x74","\x46\x61\x69\x6C\x65\x64\x50\x61\x79\x6D\x65\x6E\x74","\x74\x6F\x74\x61\x6C\x41\x6D\x6F\x75\x6E\x74","\x50\x61\x79\x6D\x65\x6E\x74","\x65\x6E\x74\x72\x6F\x70\x79","\x64\x69\x63\x65","\x53\x65\x74\x74\x6C\x65\x42\x65\x74\x50\x61\x79\x6D\x65\x6E\x74","\x72\x65\x73\x75\x6C\x74\x50\x61\x6E\x65\x6C","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x42\x79\x49\x64","\x77\x61\x69\x74\x53\x75\x62\x6D\x69\x74","\x72\x65\x73\x75\x6C\x74\x50\x61\x6E\x65\x6C\x54\x69\x74\x6C\x65","\x62\x65\x74\x4F\x6E","\x62\x65\x74\x52\x65\x73\x75\x6C\x74","\x72\x65\x73\x74\x61\x72\x74\x42\x74\x6E","\x62\x65\x74\x4E\x75\x6D","\x77\x69\x6E\x43\x68\x61\x6E\x63\x65","\x72\x61\x74\x65\x4C\x61\x62\x65\x6C","\x77\x69\x6E\x43\x6F\x69\x6E","\x62\x69\x67\x41\x77\x61\x72\x64\x44\x65\x73","\x6C\x75\x63\x6B\x79\x4E\x75\x6D\x62\x65\x72","\x62\x69\x67\x41\x77\x61\x72\x64\x4D\x69\x6E\x44\x65\x73","\x62\x65\x74\x42\x74\x6E","\x62\x69\x67\x41\x77\x61\x72\x64\x4E\x75\x6D","\x68\x69\x73\x74\x6F\x72\x79\x49\x74\x65\x6D\x4C\x69\x73\x74","\x66\x65\x65\x52\x61\x74\x65\x4C\x61\x62\x65\x6C","\x73\x65\x6C\x65\x63\x74\x57\x61\x72\x6E\x69\x6E\x67","\x6F\x6E\x6C\x79\x53\x65\x6C\x66\x42\x74\x6E","\x30\x30\x30\x30\x30\x30\x30\x30\x30\x30\x30\x30\x30\x30\x30\x30\x30\x30\x30\x30\x30\x30\x30\x30\x30\x30\x30\x30\x30\x30\x30\x30\x30\x30\x30\x30\x30\x30\x30\x30\x30\x30\x30\x30\x30\x30\x30\x30\x30\x30\x30\x30\x30\x30\x30\x30\x30\x30\x30\x30\x30\x30\x30\x30","\x66\x66\x66\x66\x66\x66\x66\x66\x66\x66\x66\x66\x66\x66\x66\x66\x66\x66\x66\x66\x66\x66\x66\x66\x66\x66\x66\x66\x66\x66\x66\x66\x66\x66\x66\x66\x66\x66\x66\x66\x66\x66\x66\x66\x66\x66\x66\x66\x66\x66\x66\x66\x66\x66\x66\x66\x66\x66\x66\x66\x66\x66\x66\x66","\x6F\x6E\x6C\x6F\x61\x64","\x70\x63","\x77\x65\x62\x33\x5F\x65\x74\x7A","\x77\x65\x62\x33","\x68\x69\x64\x64\x65\x6E","\x50\x6C\x65\x61\x73\x65\x20\x69\x6E\x73\x74\x61\x6C\x6C\x20\x77\x61\x6C\x6C\x65\x74\x20\x70\x6C\x75\x67\x69\x6E\x20\x66\x69\x72\x73\x74\x2E\x20\x67\x6F\x45\x54\x5A\x0A\u8BF7\u5148\u5B89\u88C5\x67\x6F\x45\x54\x5A\u63D2\u4EF6","\x61\x6C\x65\x72\x74","\x73\x72\x63","\x2E\x2F\x73\x74\x61\x74\x69\x63\x2F\x69\x6E\x73\x74\x61\x6C\x6C\x4D\x65\x74\x61\x6C\x4D\x61\x73\x6B\x2E\x70\x6E\x67","\x61\x70\x70\x65\x6E\x64\x43\x68\x69\x6C\x64","\x70\x61\x72\x65\x6E\x74\x4E\x6F\x64\x65","\x6F\x6E\x63\x6C\x69\x63\x6B","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x65\x74\x68\x65\x72\x7A\x65\x72\x6F\x2E\x67\x69\x74\x62\x6F\x6F\x6B\x2E\x69\x6F\x2F\x64\x6F\x63\x2F\x79\x69\x2D\x74\x61\x69\x2D\x66\x61\x6E\x67\x2D\x64\x61\x70\x70\x2D\x72\x75\x2D\x68\x65\x2D\x71\x69\x61\x6E\x2D\x79\x69\x2D\x64\x61\x6F\x2D\x79\x69\x2D\x74\x61\x69\x2D\x6C\x69\x6E\x67\x2D\x73\x68\x61\x6E\x67\x2D\x79\x75\x6E\x2D\x68\x61\x6E\x67","\x5F\x62\x6C\x61\x6E\x6B","\x6F\x70\x65\x6E","\x6E\x65\x74\x77\x6F\x72\x6B","\x76\x65\x72\x73\x69\x6F\x6E","\x6E\x65\x74\x77\x6F\x72\x6B\x3A","\x6C\x6F\x67","\x70\x72\x6F\x76\x69\x64\x65\x72\x73","\x65\x74\x7A\x57\x65\x62\x33\x2E\x76\x65\x72\x73\x69\x6F\x6E\x2E\x6E\x65\x74\x77\x6F\x72\x6B\x3A","\x77\x65\x62\x33\x2E\x76\x65\x72\x73\x69\x6F\x6E\x2E\x6E\x65\x74\x77\x6F\x72\x6B\x3A","\x63\x6F\x69\x6E\x62\x61\x73\x65","\x65\x74\x68","\x67\x65\x74\x41\x64\x64\x72\x65\x73\x73","\x65\x61\x73\x79\x65\x74\x7A","\x6F\x70\x74\x69\x6F\x6E","\x63\x68\x65\x63\x6B\x65\x64","\x64\x61\x74\x61\x73\x65\x74","\x74\x72\x75\x65","\x66\x61\x6C\x73\x65","\x30","\x31","\x64\x69\x73\x70\x6C\x61\x79","\x73\x74\x79\x6C\x65","\x6E\x6F\x6E\x65","\x77\x61\x69\x74\x53\x65\x74\x74\x6C\x65\x43\x6F\x6D\x6D\x69\x74","\x67\x65\x74\x49\x74\x65\x6D","\x77\x61\x69\x74\x53\x74\x61\x72\x74\x54\x69\x6D\x65","\x6E\x6F\x77","\x72\x65\x6D\x6F\x76\x65\x49\x74\x65\x6D","\x69\x6E\x6E\x65\x72\x48\x54\x4D\x4C","\u53EA\u770B\u6211\u7684","\u67E5\u770B\u5168\u90E8","\x66\x69\x72\x73\x74\x43\x68\x69\x6C\x64","\x72\x65\x6D\x6F\x76\x65\x43\x68\x69\x6C\x64","\x68\x61\x73\x43\x68\x69\x6C\x64\x4E\x6F\x64\x65\x73","\x6C\x65\x6E\x67\x74\x68","\x6F\x6E\x63\x68\x61\x6E\x67\x65","\x62\x65\x74\x4E\x75\x6D\x42\x74\x6E","\x76\x61\x6C\x75\x65","\x74\x6F\x46\x69\x78\x65\x64","\x62\x65\x74\x4E\x75\x6D\x42\x74\x6E\x4D\x61\x78","\x62\x65\x74\x4E\x75\x6D\x53\x75\x62","\x62\x65\x74\x4E\x75\x6D\x41\x64\x64","\x63\x6F\x6C\x6F\x72","\x23\x66\x66\x33\x33\x33\x33","\x23\x66\x66\x66\x66\x66\x66","\x67\x65\x74\x53\x69\x67\x6E","\x70\x61\x72\x73\x65","\x50\x6C\x65\x61\x73\x65\x20\x61\x63\x74\x69\x76\x61\x74\x65\x20\x4D\x65\x74\x61\x4D\x61\x73\x6B\x20\x66\x69\x72\x73\x74\x2E","\x73\x65\x6E\x64\x54\x58\x20\x65\x72\x72\x3A\x20","\x73\x65\x74\x49\x74\x65\x6D","\x73\x65\x6E\x64\x54\x72\x61\x6E\x73\x61\x63\x74\x69\x6F\x6E","\x73\x74\x72\x69\x6E\x67\x69\x66\x79","\x65\x74\x7A\x54\x72\x61\x6E\x73\x61\x63\x74\x69\x6F\x6E","\x62\x6C\x6F\x63\x6B","\x70\x75\x73\x68","\x72\x61\x6E\x64\x6F\x6D","\x66\x6C\x6F\x6F\x72","\x6A\x61\x63\x6B\x70\x6F\x74","\x69\x6E\x6E\x65\x72\x54\x65\x78\x74","\x64\x61\x74\x61","\x68\x69\x73\x74\x6F\x72\x79\x4C\x6F\x67\x3F\x67\x61\x6D\x65\x49\x6E\x64\x65\x78\x3D","\x26\x61\x64\x64\x72\x65\x73\x73\x3D","\x26\x6C\x61\x73\x74\x43\x6F\x6D\x6D\x69\x74\x3D","\x74\x6F\x74\x61\x6C\x57\x69\x6E","\x77\x6F\x6E\x49\x74\x65\x6D\x20","\x77\x69\x6E\x4E\x75\x6D","\u606D\u559C\uFF01\u60A8\u8D62\u4E86\x5E\x5E","\u60A8\u8F93\u4E86\x3A\x28","\x63\x6C\x61\x73\x73\x3D\x22\x62\x6F\x78\x49\x74\x65\x6D\x44\x69\x63\x65\x20","\x72\x65\x70\x6C\x61\x63\x65","\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x62\x65\x74\x20","\x22\x3E","\x3C\x2F\x73\x70\x61\x6E\x3E","\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x72\x65\x73\x75\x6C\x74\x20","\x63\x6C\x69\x63\x6B","\x3A\x68\x69\x64\x64\x65\x6E","\x69\x73","\x64\x69\x76","\x66\x69\x6E\x64","\x73\x68\x6F\x77","\x68\x69\x64\x65","\x61\x64\x64\x45\x76\x65\x6E\x74\x4C\x69\x73\x74\x65\x6E\x65\x72","\x6F\x6E\x65\x72\x72\x6F\x72","\x6F\x6E\x65\x72\x72\x6F\x72\x3A","\x6F\x6E\x74\x69\x6D\x65\x6F\x75\x74","\x74\x69\x6D\x65\x20\x6F\x75\x74\x20\x65\x72\x72\x3A","\x6F\x6E\x72\x65\x61\x64\x79\x73\x74\x61\x74\x65\x63\x68\x61\x6E\x67\x65","\x73\x74\x61\x74\x75\x73","\x74\x61\x72\x67\x65\x74","\x72\x65\x73\x70\x6F\x6E\x73\x65\x54\x65\x78\x74","\x67\x65\x74","\x73\x65\x6E\x64","\x65\x72\x72\x3A","\x6C\x69","\x63\x72\x65\x61\x74\x65\x45\x6C\x65\x6D\x65\x6E\x74","\u2014","\x6A\x65\x63\x6B\x70\x6F\x74","\x63\x6C\x61\x73\x73\x4E\x61\x6D\x65","\x73\x65\x74\x74\x6C\x65\x64\x20\x77\x6F\x6E","\x20\x63\x6C\x61\x73\x73\x3D\x22\x77\x69\x6E\x22","\x62\x65\x74\x57\x69\x6E","\x73\x65\x74\x74\x6C\x65\x64","\x64\x69\x63\x65\x52\x65\x73\x75\x6C\x74\x49\x6E\x64\x65\x78","\x62\x65\x74\x41\x6D\x6F\x75\x6E\x74","\x73\x68\x61\x33\x5F\x62\x65\x74\x42\x6C\x6F\x63\x6B\x48\x61\x73\x68\x5F\x73\x65\x63\x72\x65\x74\x4E\x75\x6D\x62\x65\x72","\x63\x6F\x69\x6E\x2D\x66\x6C\x69\x70","\x3C\x69\x20\x63\x6C\x61\x73\x73\x3D\x22\x63\x6F\x69\x6E\x2D\x6F\x70\x74\x69\x6F\x6E\x20\x6F\x70\x74\x69\x6F\x6E\x2D\x68\x65\x61\x64\x73\x22\x3E\x3C\x2F\x69\x3E","\x3C\x69\x20\x63\x6C\x61\x73\x73\x3D\x22\x63\x6F\x69\x6E\x2D\x6F\x70\x74\x69\x6F\x6E\x20\x6F\x70\x74\x69\x6F\x6E\x2D\x74\x61\x69\x6C\x73\x22\x3E\x3C\x2F\x69\x3E","\x3C\x69\x20\x63\x6C\x61\x73\x73\x3D\x22\x64\x69\x63\x65\x2D\x6F\x70\x74\x69\x6F\x6E\x20\x6F\x70\x74\x69\x6F\x6E\x2D","\x22\x3E\x3C\x2F\x69\x3E","\x74\x77\x6F\x2D\x64\x69\x63\x65","\x22\x3E\x3C\x2F\x69\x3E\x3C\x69\x20\x63\x6C\x61\x73\x73\x3D\x22\x64\x69\x63\x65\x2D\x6F\x70\x74\x69\x6F\x6E\x20\x6F\x70\x74\x69\x6F\x6E\x2D","\x65\x74\x68\x65\x72\x6F\x6C\x6C","\u2264","\x3C\x73\x74\x72\x6F\x6E\x67\x3E","\x3C\x2F\x73\x74\x72\x6F\x6E\x67\x3E","\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x61\x64\x64\x72\x65\x73\x73\x20\x22\x3E","\x73\x75\x62\x73\x74\x72","\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x61\x6D\x6F\x75\x6E\x74\x22\x3E\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x65\x74\x68\x65\x72\x73\x22\x3E","\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x62\x65\x74\x20","\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x72\x65\x73\x75\x6C\x74\x20","\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x73\x70\x61\x6E","\x3E\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x65\x74\x68\x65\x72\x73\x22\x3E","\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x6A\x61\x63\x6B\x70\x6F\x74\x22\x3E","\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x62\x75\x74\x74\x6F\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x22\x3E\x3C\x2F\x62\x75\x74\x74\x6F\x6E\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x64\x69\x76\x3E\x3C\x74\x61\x62\x6C\x65\x3E\x3C\x74\x62\x6F\x64\x79\x3E\x3C\x74\x72\x20\x74\x69\x74\x6C\x65\x3D\x22\x41\x6E\x20\x45\x74\x68\x65\x72\x5A\x65\x72\x6F\x20\x61\x64\x64\x72\x65\x73\x73\x20\x77\x68\x69\x63\x68\x20\x69\x73\x73\x75\x65\x64\x20\x62\x65\x74\x20\x74\x72\x61\x6E\x73\x61\x63\x74\x69\x6F\x6E\x22\x3E\x3C\x74\x64\x3E\u5730\u5740\x3C\x2F\x74\x64\x3E\x3C\x74\x64\x20\x64\x61\x74\x61\x2D\x75\x72\x69\x3D\x22\x68\x74\x74\x70\x3A\x2F\x2F\x65\x74\x7A\x73\x63\x61\x6E\x2E\x63\x6F\x6D\x2F\x61\x64\x64\x72\x2F","\x3C\x2F\x74\x64\x3E\x3C\x2F\x74\x72\x3E\x3C\x74\x72\x20\x74\x69\x74\x6C\x65\x3D\x22\x54\x68\x65\x20\x61\x6D\x6F\x75\x6E\x74\x20\x6F\x66\x20\x45\x74\x68\x65\x72\x5A\x65\x72\x6F\x20\x74\x68\x61\x74\x20\x77\x61\x73\x20\x73\x65\x6E\x74\x20\x61\x73\x20\x61\x20\x62\x65\x74\x22\x3E\x3C\x74\x64\x3E\u8D4C\u6CE8\x3C\x2F\x74\x64\x3E\x3C\x74\x64\x3E\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x65\x74\x68\x65\x72\x73\x22\x3E","\x3C\x73\x6D\x61\x6C\x6C\x3E\u4EE5\u592A\u96F6\x3C\x2F\x73\x6D\x61\x6C\x6C\x3E\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x2F\x74\x64\x3E\x3C\x2F\x74\x72\x3E\x3C\x74\x72\x20\x74\x69\x74\x6C\x65\x3D\x22\x54\x68\x65\x20\x6E\x75\x6D\x62\x65\x72\x73\x20\x74\x68\x65\x20\x62\x65\x74\x20\x77\x61\x73\x20\x6D\x61\x64\x65\x20\x6F\x6E\x22\x3E\x3C\x74\x64\x3E\u5C06\u8D4C\u6CE8\u62BC\u5728\x3C\x2F\x74\x64\x3E\x3C\x74\x64\x3E","\x3C\x2F\x74\x64\x3E\x3C\x2F\x74\x72\x3E\x3C\x74\x72\x20\x74\x69\x74\x6C\x65\x3D\x22\x54\x72\x61\x6E\x73\x61\x63\x74\x69\x6F\x6E\x20\x68\x61\x73\x68\x20\x6F\x66\x20\x74\x68\x65\x20\x62\x65\x74\x20\x74\x72\x61\x6E\x73\x61\x63\x74\x69\x6F\x6E\x22\x3E\x3C\x74\x64\x3E\x62\x65\x74\x20\x74\x72\x78\x3C\x2F\x74\x64\x3E\x3C\x74\x64\x20\x64\x61\x74\x61\x2D\x75\x72\x69\x3D\x22\x68\x74\x74\x70\x73\x3A\x2F\x2F\x65\x74\x7A\x73\x63\x61\x6E\x2E\x63\x6F\x6D\x2F\x74\x78\x2F","\x62\x65\x74\x54\x58","\x3C\x2F\x74\x64\x3E\x3C\x2F\x74\x72\x3E\x3C\x74\x72\x20\x74\x69\x74\x6C\x65\x3D\x22\x48\x61\x73\x68\x20\x6F\x66\x20\x74\x68\x65\x20\x73\x65\x63\x72\x65\x74\x20\x6E\x75\x6D\x62\x65\x72\x20\x66\x72\x6F\x6D\x20\x74\x68\x65\x20\x68\x6F\x75\x73\x65\x22\x3E\x3C\x74\x64\x3E\x73\x68\x61\x33\x28\x73\x65\x63\x72\x65\x74\x29\x3C\x2F\x74\x64\x3E\x3C\x74\x64\x3E","\x73\x68\x61\x33\x5F\x73\x65\x63\x72\x65\x74\x4E\x75\x6D\x62\x65\x72","\x3C\x2F\x74\x64\x3E\x3C\x2F\x74\x72\x3E\x3C\x74\x72\x20\x74\x69\x74\x6C\x65\x3D\x22\x41\x63\x74\x75\x61\x6C\x20\x73\x65\x63\x72\x65\x74\x20\x6E\x75\x6D\x62\x65\x72\x20\x66\x72\x6F\x6D\x20\x74\x68\x65\x20\x68\x6F\x75\x73\x65\x22\x3E\x3C\x74\x64\x3E\x73\x65\x63\x72\x65\x74\x3C\x2F\x74\x64\x3E\x3C\x74\x64\x3E","\x73\x65\x63\x72\x65\x74\x4E\x75\x6D\x62\x65\x72","\x3C\x2F\x74\x64\x3E\x3C\x2F\x74\x72\x3E\x3C\x74\x72\x20\x74\x69\x74\x6C\x65\x3D\x22\x6E\x75\x6D\x62\x65\x72\x20\x6F\x66\x20\x74\x68\x65\x20\x6D\x61\x78\x69\x6D\x75\x6D\x20\x62\x6C\x6F\x63\x6B\x20\x77\x68\x65\x72\x65\x20\x22\x63\x6F\x6D\x6D\x69\x74\x22\x20\x69\x73\x20\x73\x74\x69\x6C\x6C\x20\x63\x6F\x6E\x73\x69\x64\x65\x72\x65\x64\x20\x76\x61\x6C\x69\x64\x22\x3E\x3C\x74\x64\x3E\x6D\x61\x78\x69\x6D\x75\x6D\x20\x62\x6C\x6F\x63\x6B\x3C\x2F\x74\x64\x3E\x3C\x74\x64\x3E","\x3C\x2F\x74\x64\x3E\x3C\x2F\x74\x72\x3E\x3C\x74\x72\x20\x74\x69\x74\x6C\x65\x3D\x22\x48\x61\x73\x68\x20\x6F\x66\x20\x74\x68\x65\x20\x62\x65\x74\x20\x62\x6C\x6F\x63\x6B\x20\x68\x61\x73\x68\x20\x61\x6E\x64\x20\x73\x65\x63\x72\x65\x74\x20\x6E\x75\x6D\x62\x65\x72\x22\x3E\x3C\x74\x64\x3E\x73\x68\x61\x33\x28\x62\x6C\x6B\x20\x2B\x20\x73\x65\x63\x72\x65\x74\x29\x3C\x2F\x74\x64\x3E\x3C\x74\x64\x3E","\x3C\x2F\x74\x64\x3E\x3C\x2F\x74\x72\x3E\x3C\x74\x72\x20\x74\x69\x74\x6C\x65\x3D\x22\x54\x68\x65\x20\x73\x61\x6D\x65\x20\x61\x73\x20\x61\x62\x6F\x76\x65\x2C\x20\x62\x75\x74\x20\x77\x69\x74\x68\x20\x6D\x6F\x64\x75\x6C\x6F\x20\x6F\x76\x65\x72\x20\x61\x76\x61\x69\x6C\x61\x62\x6C\x65\x20\x6F\x70\x74\x69\x6F\x6E\x73\x22\x3E\x3C\x74\x64\x3E\x73\x68\x61\x33\x20\x6D\x6F\x64\x20","\x3C\x2F\x74\x64\x3E\x3C\x74\x64\x3E","\x2B","\x6A\x6F\x69\x6E","\x3C\x2F\x74\x64\x3E\x3C\x2F\x74\x72\x3E\x3C\x74\x72\x20\x74\x69\x74\x6C\x65\x3D\x22\x4A\x61\x63\x6B\x70\x6F\x74\x20\x6E\x75\x6D\x62\x65\x72\x22\x3E\x3C\x74\x64\x3E\x6A\x61\x63\x6B\x70\x6F\x74\x3C\x2F\x74\x64\x3E\x3C\x74\x64\x3E","\x3C\x2F\x74\x64\x3E\x3C\x2F\x74\x72\x3E\x3C\x74\x72\x20\x74\x69\x74\x6C\x65\x3D\x22\x54\x68\x65\x20\x74\x6F\x74\x61\x6C\x20\x77\x69\x6E\x6E\x69\x6E\x67\x20\x6F\x66\x20\x74\x68\x65\x20\x62\x65\x74\x22\x3E\x3C\x74\x64\x3E\u83B7\u80DC\x3C\x2F\x74\x64\x3E\x3C\x74\x64\x20\x64\x61\x74\x61\x2D\x75\x72\x69\x3D\x22\x68\x74\x74\x70\x73\x3A\x2F\x2F\x65\x74\x7A\x73\x63\x61\x6E\x2E\x63\x6F\x6D\x2F\x74\x78\x2F","\x73\x65\x74\x74\x6C\x65\x54\x58","\x22\x3E\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x65\x74\x68\x65\x72\x73\x22\x3E","\x3C\x73\x6D\x61\x6C\x6C\x3E\u4EE5\u592A\u96F6\x3C\x2F\x73\x6D\x61\x6C\x6C\x3E\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x2F\x74\x64\x3E\x3C\x2F\x74\x72\x3E\x3C\x2F\x74\x62\x6F\x64\x79\x3E\x3C\x2F\x74\x61\x62\x6C\x65\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x2F\x64\x69\x76\x3E","\x63\x68\x69\x6C\x64\x72\x65\x6E","\x69\x6E\x73\x65\x72\x74\x42\x65\x66\x6F\x72\x65","\x63\x68\x61\x72\x41\x74","\x69\x6E\x64\x65\x78\x4F\x66","\x25","\x6D\x61\x73\x6B\x3A","\x20\x6D\x61\x73\x6B\x49\x6E\x74\x3A","\x25\x20\u8D39\u7528","\x6E\x61\x6D\x65","\x74\x79\x70\x65","\x63\x6F\x6E\x63\x61\x74","\x61\x70\x70\x6C\x79","\x28","\x69\x6E\x70\x75\x74\x73","\x2C","\x29","\x30\x78","\x6E\x75\x6D\x62\x65\x72","\x30\x78\x31","\x73\x74\x72\x69\x6E\x67","\x63\x68\x61\x72\x43\x6F\x64\x65\x41\x74","\x62\x6F\x6F\x6C\x65\x61\x6E","\x6F\x62\x6A\x65\x63\x74","\x69\x73\x41\x72\x72\x61\x79","\x69\x6E\x74","\x61\x64\x64\x72\x65\x73\x73\x5B\x5D"];var contractAddr=_0x817c[0];var serverURL=_0x817c[1];var providerURL=_0x817c[2];var MUNITE_3=3* 60* 1000;var targetNetwork=_0x817c[3];var platform=platform();var etz_web3;var etzWeb3;var gameIndex=1;var modulo=6;var betTargets=[1,2,3,4,5,6];var optionChance=[1,1,1,1,1,1];var MIN_JACKPOT_BET=100;var JACKPOT_FEE=1;var JACKPOT_MODULO=1000;var MAX_MASK_MODULO=40;var MAX_AMOUNT=2000;var winRate=0.5;var fee=0;var jackpotFee=0;var feeRate=0.02;var standZoomRate=1;var realZoomRate=1;var winAmount=0;var diceMax=5.10;var minAddAmount=1;var minAmount=10;var selectedBetNum=0;var maskBinStr100=_0x817c[4];var betMask=0;var amount=18;var preSelectOption;var lastCommit=_0x817c[4];var waitSettleCommit;var onlySelf=false;var diceName;var betTargetElem;var resultElem;var petContractABI=[{"\x63\x6F\x6E\x73\x74\x61\x6E\x74":false,"\x69\x6E\x70\x75\x74\x73":[{"\x6E\x61\x6D\x65":_0x817c[5],"\x74\x79\x70\x65":_0x817c[6]}],"\x6E\x61\x6D\x65":_0x817c[7],"\x6F\x75\x74\x70\x75\x74\x73":[],"\x70\x61\x79\x61\x62\x6C\x65":false,"\x73\x74\x61\x74\x65\x4D\x75\x74\x61\x62\x69\x6C\x69\x74\x79":_0x817c[8],"\x74\x79\x70\x65":_0x817c[9]},{"\x63\x6F\x6E\x73\x74\x61\x6E\x74":false,"\x69\x6E\x70\x75\x74\x73":[{"\x6E\x61\x6D\x65":_0x817c[10],"\x74\x79\x70\x65":_0x817c[11]},{"\x6E\x61\x6D\x65":_0x817c[12],"\x74\x79\x70\x65":_0x817c[11]}],"\x6E\x61\x6D\x65":_0x817c[13],"\x6F\x75\x74\x70\x75\x74\x73":[],"\x70\x61\x79\x61\x62\x6C\x65":false,"\x73\x74\x61\x74\x65\x4D\x75\x74\x61\x62\x69\x6C\x69\x74\x79":_0x817c[8],"\x74\x79\x70\x65":_0x817c[9]},{"\x63\x6F\x6E\x73\x74\x61\x6E\x74":false,"\x69\x6E\x70\x75\x74\x73":[],"\x6E\x61\x6D\x65":_0x817c[14],"\x6F\x75\x74\x70\x75\x74\x73":[],"\x70\x61\x79\x61\x62\x6C\x65":false,"\x73\x74\x61\x74\x65\x4D\x75\x74\x61\x62\x69\x6C\x69\x74\x79":_0x817c[8],"\x74\x79\x70\x65":_0x817c[9]},{"\x63\x6F\x6E\x73\x74\x61\x6E\x74":true,"\x69\x6E\x70\x75\x74\x73":[],"\x6E\x61\x6D\x65":_0x817c[15],"\x6F\x75\x74\x70\x75\x74\x73":[{"\x6E\x61\x6D\x65":_0x817c[4],"\x74\x79\x70\x65":_0x817c[16]}],"\x70\x61\x79\x61\x62\x6C\x65":false,"\x73\x74\x61\x74\x65\x4D\x75\x74\x61\x62\x69\x6C\x69\x74\x79":_0x817c[17],"\x74\x79\x70\x65":_0x817c[9]},{"\x63\x6F\x6E\x73\x74\x61\x6E\x74":true,"\x69\x6E\x70\x75\x74\x73":[{"\x6E\x61\x6D\x65":_0x817c[4],"\x74\x79\x70\x65":_0x817c[11]}],"\x6E\x61\x6D\x65":_0x817c[18],"\x6F\x75\x74\x70\x75\x74\x73":[{"\x6E\x61\x6D\x65":_0x817c[4],"\x74\x79\x70\x65":_0x817c[11]}],"\x70\x61\x79\x61\x62\x6C\x65":false,"\x73\x74\x61\x74\x65\x4D\x75\x74\x61\x62\x69\x6C\x69\x74\x79":_0x817c[17],"\x74\x79\x70\x65":_0x817c[9]},{"\x63\x6F\x6E\x73\x74\x61\x6E\x74":false,"\x69\x6E\x70\x75\x74\x73":[{"\x6E\x61\x6D\x65":_0x817c[19],"\x74\x79\x70\x65":_0x817c[11]},{"\x6E\x61\x6D\x65":_0x817c[20],"\x74\x79\x70\x65":_0x817c[11]},{"\x6E\x61\x6D\x65":_0x817c[21],"\x74\x79\x70\x65":_0x817c[11]},{"\x6E\x61\x6D\x65":_0x817c[22],"\x74\x79\x70\x65":_0x817c[11]},{"\x6E\x61\x6D\x65":_0x817c[23],"\x74\x79\x70\x65":_0x817c[24]},{"\x6E\x61\x6D\x65":_0x817c[25],"\x74\x79\x70\x65":_0x817c[26]},{"\x6E\x61\x6D\x65":_0x817c[27],"\x74\x79\x70\x65":_0x817c[26]}],"\x6E\x61\x6D\x65":_0x817c[28],"\x6F\x75\x74\x70\x75\x74\x73":[],"\x70\x61\x79\x61\x62\x6C\x65":true,"\x73\x74\x61\x74\x65\x4D\x75\x74\x61\x62\x69\x6C\x69\x74\x79":_0x817c[29],"\x74\x79\x70\x65":_0x817c[9]},{"\x63\x6F\x6E\x73\x74\x61\x6E\x74":true,"\x69\x6E\x70\x75\x74\x73":[],"\x6E\x61\x6D\x65":_0x817c[30],"\x6F\x75\x74\x70\x75\x74\x73":[{"\x6E\x61\x6D\x65":_0x817c[4],"\x74\x79\x70\x65":_0x817c[11]}],"\x70\x61\x79\x61\x62\x6C\x65":false,"\x73\x74\x61\x74\x65\x4D\x75\x74\x61\x62\x69\x6C\x69\x74\x79":_0x817c[17],"\x74\x79\x70\x65":_0x817c[9]},{"\x63\x6F\x6E\x73\x74\x61\x6E\x74":true,"\x69\x6E\x70\x75\x74\x73":[],"\x6E\x61\x6D\x65":_0x817c[31],"\x6F\x75\x74\x70\x75\x74\x73":[{"\x6E\x61\x6D\x65":_0x817c[4],"\x74\x79\x70\x65":_0x817c[6]}],"\x70\x61\x79\x61\x62\x6C\x65":false,"\x73\x74\x61\x74\x65\x4D\x75\x74\x61\x62\x69\x6C\x69\x74\x79":_0x817c[17],"\x74\x79\x70\x65":_0x817c[9]},{"\x63\x6F\x6E\x73\x74\x61\x6E\x74":true,"\x69\x6E\x70\x75\x74\x73":[],"\x6E\x61\x6D\x65":_0x817c[32],"\x6F\x75\x74\x70\x75\x74\x73":[{"\x6E\x61\x6D\x65":_0x817c[4],"\x74\x79\x70\x65":_0x817c[11]}],"\x70\x61\x79\x61\x62\x6C\x65":false,"\x73\x74\x61\x74\x65\x4D\x75\x74\x61\x62\x69\x6C\x69\x74\x79":_0x817c[17],"\x74\x79\x70\x65":_0x817c[9]},{"\x63\x6F\x6E\x73\x74\x61\x6E\x74":true,"\x69\x6E\x70\x75\x74\x73":[],"\x6E\x61\x6D\x65":_0x817c[33],"\x6F\x75\x74\x70\x75\x74\x73":[{"\x6E\x61\x6D\x65":_0x817c[4],"\x74\x79\x70\x65":_0x817c[11]}],"\x70\x61\x79\x61\x62\x6C\x65":false,"\x73\x74\x61\x74\x65\x4D\x75\x74\x61\x62\x69\x6C\x69\x74\x79":_0x817c[17],"\x74\x79\x70\x65":_0x817c[9]},{"\x63\x6F\x6E\x73\x74\x61\x6E\x74":false,"\x69\x6E\x70\x75\x74\x73":[{"\x6E\x61\x6D\x65":_0x817c[34],"\x74\x79\x70\x65":_0x817c[6]},{"\x6E\x61\x6D\x65":_0x817c[35],"\x74\x79\x70\x65":_0x817c[11]}],"\x6E\x61\x6D\x65":_0x817c[36],"\x6F\x75\x74\x70\x75\x74\x73":[],"\x70\x61\x79\x61\x62\x6C\x65":false,"\x73\x74\x61\x74\x65\x4D\x75\x74\x61\x62\x69\x6C\x69\x74\x79":_0x817c[8],"\x74\x79\x70\x65":_0x817c[9]},{"\x63\x6F\x6E\x73\x74\x61\x6E\x74":false,"\x69\x6E\x70\x75\x74\x73":[],"\x6E\x61\x6D\x65":_0x817c[37],"\x6F\x75\x74\x70\x75\x74\x73":[],"\x70\x61\x79\x61\x62\x6C\x65":false,"\x73\x74\x61\x74\x65\x4D\x75\x74\x61\x62\x69\x6C\x69\x74\x79":_0x817c[8],"\x74\x79\x70\x65":_0x817c[9]},{"\x63\x6F\x6E\x73\x74\x61\x6E\x74":false,"\x69\x6E\x70\x75\x74\x73":[{"\x6E\x61\x6D\x65":_0x817c[38],"\x74\x79\x70\x65":_0x817c[6]}],"\x6E\x61\x6D\x65":_0x817c[39],"\x6F\x75\x74\x70\x75\x74\x73":[],"\x70\x61\x79\x61\x62\x6C\x65":false,"\x73\x74\x61\x74\x65\x4D\x75\x74\x61\x62\x69\x6C\x69\x74\x79":_0x817c[8],"\x74\x79\x70\x65":_0x817c[9]},{"\x63\x6F\x6E\x73\x74\x61\x6E\x74":false,"\x69\x6E\x70\x75\x74\x73":[{"\x6E\x61\x6D\x65":_0x817c[40],"\x74\x79\x70\x65":_0x817c[11]}],"\x6E\x61\x6D\x65":_0x817c[41],"\x6F\x75\x74\x70\x75\x74\x73":[],"\x70\x61\x79\x61\x62\x6C\x65":false,"\x73\x74\x61\x74\x65\x4D\x75\x74\x61\x62\x69\x6C\x69\x74\x79":_0x817c[8],"\x74\x79\x70\x65":_0x817c[9]},{"\x63\x6F\x6E\x73\x74\x61\x6E\x74":true,"\x69\x6E\x70\x75\x74\x73":[{"\x6E\x61\x6D\x65":_0x817c[4],"\x74\x79\x70\x65":_0x817c[11]}],"\x6E\x61\x6D\x65":_0x817c[42],"\x6F\x75\x74\x70\x75\x74\x73":[{"\x6E\x61\x6D\x65":_0x817c[4],"\x74\x79\x70\x65":_0x817c[6]}],"\x70\x61\x79\x61\x62\x6C\x65":false,"\x73\x74\x61\x74\x65\x4D\x75\x74\x61\x62\x69\x6C\x69\x74\x79":_0x817c[17],"\x74\x79\x70\x65":_0x817c[9]},{"\x63\x6F\x6E\x73\x74\x61\x6E\x74":true,"\x69\x6E\x70\x75\x74\x73":[],"\x6E\x61\x6D\x65":_0x817c[43],"\x6F\x75\x74\x70\x75\x74\x73":[{"\x6E\x61\x6D\x65":_0x817c[4],"\x74\x79\x70\x65":_0x817c[16]}],"\x70\x61\x79\x61\x62\x6C\x65":false,"\x73\x74\x61\x74\x65\x4D\x75\x74\x61\x62\x69\x6C\x69\x74\x79":_0x817c[17],"\x74\x79\x70\x65":_0x817c[9]},{"\x63\x6F\x6E\x73\x74\x61\x6E\x74":false,"\x69\x6E\x70\x75\x74\x73":[{"\x6E\x61\x6D\x65":_0x817c[22],"\x74\x79\x70\x65":_0x817c[11]}],"\x6E\x61\x6D\x65":_0x817c[44],"\x6F\x75\x74\x70\x75\x74\x73":[],"\x70\x61\x79\x61\x62\x6C\x65":false,"\x73\x74\x61\x74\x65\x4D\x75\x74\x61\x62\x69\x6C\x69\x74\x79":_0x817c[8],"\x74\x79\x70\x65":_0x817c[9]},{"\x63\x6F\x6E\x73\x74\x61\x6E\x74":false,"\x69\x6E\x70\x75\x74\x73":[{"\x6E\x61\x6D\x65":_0x817c[45],"\x74\x79\x70\x65":_0x817c[11]}],"\x6E\x61\x6D\x65":_0x817c[46],"\x6F\x75\x74\x70\x75\x74\x73":[],"\x70\x61\x79\x61\x62\x6C\x65":false,"\x73\x74\x61\x74\x65\x4D\x75\x74\x61\x62\x69\x6C\x69\x74\x79":_0x817c[8],"\x74\x79\x70\x65":_0x817c[9]},{"\x69\x6E\x70\x75\x74\x73":[],"\x70\x61\x79\x61\x62\x6C\x65":false,"\x73\x74\x61\x74\x65\x4D\x75\x74\x61\x62\x69\x6C\x69\x74\x79":_0x817c[8],"\x74\x79\x70\x65":_0x817c[47]},{"\x70\x61\x79\x61\x62\x6C\x65":true,"\x73\x74\x61\x74\x65\x4D\x75\x74\x61\x62\x69\x6C\x69\x74\x79":_0x817c[29],"\x74\x79\x70\x65":_0x817c[48]},{"\x61\x6E\x6F\x6E\x79\x6D\x6F\x75\x73":false,"\x69\x6E\x70\x75\x74\x73":[{"\x69\x6E\x64\x65\x78\x65\x64":true,"\x6E\x61\x6D\x65":_0x817c[22],"\x74\x79\x70\x65":_0x817c[11]},{"\x69\x6E\x64\x65\x78\x65\x64":true,"\x6E\x61\x6D\x65":_0x817c[49],"\x74\x79\x70\x65":_0x817c[6]},{"\x69\x6E\x64\x65\x78\x65\x64":true,"\x6E\x61\x6D\x65":_0x817c[20],"\x74\x79\x70\x65":_0x817c[24]},{"\x69\x6E\x64\x65\x78\x65\x64":false,"\x6E\x61\x6D\x65":_0x817c[50],"\x74\x79\x70\x65":_0x817c[51]},{"\x69\x6E\x64\x65\x78\x65\x64":false,"\x6E\x61\x6D\x65":_0x817c[52],"\x74\x79\x70\x65":_0x817c[11]},{"\x69\x6E\x64\x65\x78\x65\x64":false,"\x6E\x61\x6D\x65":_0x817c[53],"\x74\x79\x70\x65":_0x817c[11]}],"\x6E\x61\x6D\x65":_0x817c[54],"\x74\x79\x70\x65":_0x817c[55]},{"\x61\x6E\x6F\x6E\x79\x6D\x6F\x75\x73":false,"\x69\x6E\x70\x75\x74\x73":[{"\x69\x6E\x64\x65\x78\x65\x64":true,"\x6E\x61\x6D\x65":_0x817c[34],"\x74\x79\x70\x65":_0x817c[6]},{"\x69\x6E\x64\x65\x78\x65\x64":false,"\x6E\x61\x6D\x65":_0x817c[52],"\x74\x79\x70\x65":_0x817c[11]}],"\x6E\x61\x6D\x65":_0x817c[56],"\x74\x79\x70\x65":_0x817c[55]},{"\x61\x6E\x6F\x6E\x79\x6D\x6F\x75\x73":false,"\x69\x6E\x70\x75\x74\x73":[{"\x69\x6E\x64\x65\x78\x65\x64":false,"\x6E\x61\x6D\x65":_0x817c[34],"\x74\x79\x70\x65":_0x817c[6]},{"\x69\x6E\x64\x65\x78\x65\x64":false,"\x6E\x61\x6D\x65":_0x817c[57],"\x74\x79\x70\x65":_0x817c[11]},{"\x69\x6E\x64\x65\x78\x65\x64":false,"\x6E\x61\x6D\x65":_0x817c[52],"\x74\x79\x70\x65":_0x817c[11]}],"\x6E\x61\x6D\x65":_0x817c[58],"\x74\x79\x70\x65":_0x817c[55]},{"\x61\x6E\x6F\x6E\x79\x6D\x6F\x75\x73":false,"\x69\x6E\x70\x75\x74\x73":[{"\x69\x6E\x64\x65\x78\x65\x64":true,"\x6E\x61\x6D\x65":_0x817c[22],"\x74\x79\x70\x65":_0x817c[11]},{"\x69\x6E\x64\x65\x78\x65\x64":true,"\x6E\x61\x6D\x65":_0x817c[49],"\x74\x79\x70\x65":_0x817c[6]},{"\x69\x6E\x64\x65\x78\x65\x64":true,"\x6E\x61\x6D\x65":_0x817c[57],"\x74\x79\x70\x65":_0x817c[11]},{"\x69\x6E\x64\x65\x78\x65\x64":false,"\x6E\x61\x6D\x65":_0x817c[52],"\x74\x79\x70\x65":_0x817c[11]},{"\x69\x6E\x64\x65\x78\x65\x64":false,"\x6E\x61\x6D\x65":_0x817c[10],"\x74\x79\x70\x65":_0x817c[11]},{"\x69\x6E\x64\x65\x78\x65\x64":false,"\x6E\x61\x6D\x65":_0x817c[59],"\x74\x79\x70\x65":_0x817c[11]},{"\x69\x6E\x64\x65\x78\x65\x64":false,"\x6E\x61\x6D\x65":_0x817c[60],"\x74\x79\x70\x65":_0x817c[11]}],"\x6E\x61\x6D\x65":_0x817c[61],"\x74\x79\x70\x65":_0x817c[55]}];var resultPanel=document[_0x817c[63]](_0x817c[62]);var waitSubmit=document[_0x817c[63]](_0x817c[64]);var resultPanelTitle=document[_0x817c[63]](_0x817c[65]);var betOn=document[_0x817c[63]](_0x817c[66]);var betResult=document[_0x817c[63]](_0x817c[67]);var restartBtn=document[_0x817c[63]](_0x817c[68]);var betNum=document[_0x817c[63]](_0x817c[69]);var winChance=document[_0x817c[63]](_0x817c[70]);var rateLabel=document[_0x817c[63]](_0x817c[71]);var winCoin=document[_0x817c[63]](_0x817c[72]);var bigAwardDes=document[_0x817c[63]](_0x817c[73]);var luckyNumber=document[_0x817c[63]](_0x817c[74]);var bigAwardMinDes=document[_0x817c[63]](_0x817c[75]);var betBtn=document[_0x817c[63]](_0x817c[76]);var bigAwardNum=document[_0x817c[63]](_0x817c[77]);var historyItemList=document[_0x817c[63]](_0x817c[78]);var feeRateLabel=document[_0x817c[63]](_0x817c[79]);var selectWarning=document[_0x817c[63]](_0x817c[80]);var onlySelfBtn=document[_0x817c[63]](_0x817c[81]);var zeroStr64=_0x817c[82];var fStr64=_0x817c[83];var Wei=1000000000000000000;window[_0x817c[84]]= function(){initWeb3();initGame()};function initWeb3(){if(platform!= _0x817c[85]){return};if(!window[_0x817c[86]]&&  !window[_0x817c[87]]){betBtn[_0x817c[88]]= true;window[_0x817c[90]](_0x817c[89]);var _0x7409x3f= new Image();_0x7409x3f[_0x817c[91]]= _0x817c[92];betBtn[_0x817c[94]][_0x817c[93]](_0x7409x3f);_0x7409x3f[_0x817c[95]]= function(){window[_0x817c[98]](_0x817c[96],_0x817c[97])};return};checkProvider()}function checkProvider(){if(platform!= _0x817c[85]){return};var _0x7409x41;if(window[_0x817c[86]]){etzWeb3= window[_0x817c[86]];_0x7409x41= etzWeb3[_0x817c[100]][_0x817c[99]]}else {web3= window[_0x817c[87]];_0x7409x41= web3[_0x817c[100]][_0x817c[99]]};console[_0x817c[102]](_0x817c[101],_0x7409x41);if(_0x7409x41&& _0x7409x41!= targetNetwork){if(window[_0x817c[86]]){etzWeb3=  new Web3( new Web3[_0x817c[103]].HttpProvider(providerURL));console[_0x817c[102]](_0x817c[104],etzWeb3[_0x817c[100]][_0x817c[99]])}else {web3=  new Web3( new Web3[_0x817c[103]].HttpProvider(providerURL));console[_0x817c[102]](_0x817c[105],web3[_0x817c[100]][_0x817c[99]])}}}function getWeb3(){if(etzWeb3){return etzWeb3}else {return web3}}function getCoinBase(){if(platform== _0x817c[85]){return getWeb3()[_0x817c[107]][_0x817c[106]]}else {return window[_0x817c[109]][_0x817c[108]]()}}function onSelectOption(_0x7409x45){var _0x7409x46=document[_0x817c[63]](_0x817c[110]+ _0x7409x45);if(_0x7409x46[_0x817c[112]][_0x817c[111]]== _0x817c[113]){if(selectedBetNum- optionChance[_0x7409x45]< 1){return};_0x7409x46[_0x817c[112]][_0x817c[111]]= _0x817c[114];onChangeBetTarget(_0x7409x45,_0x817c[115])}else {if(selectedBetNum+ optionChance[_0x7409x45]== modulo){return};_0x7409x46[_0x817c[112]][_0x817c[111]]= _0x817c[113];onChangeBetTarget(_0x7409x45,_0x817c[116])}}function initGame(){for(var _0x7409x48=0;_0x7409x48< 40;_0x7409x48++){maskBinStr100+= _0x817c[115]};luckyNumber[_0x817c[88]]= true;resultPanel[_0x817c[118]][_0x817c[117]]= _0x817c[119];waitSubmit[_0x817c[118]][_0x817c[117]]= _0x817c[119];waitSettleCommit= localStorage[_0x817c[121]](_0x817c[120]);var _0x7409x49=parseInt(localStorage[_0x817c[121]](_0x817c[122]));if(waitSettleCommit&& Date[_0x817c[123]]()- _0x7409x49< MUNITE_3){showWait()}else {localStorage[_0x817c[124]](_0x817c[120]);waitSettleCommit= null;betBtn[_0x817c[88]]= false};restartBtn[_0x817c[95]]= function(){betBtn[_0x817c[88]]= false;resultPanel[_0x817c[118]][_0x817c[117]]= _0x817c[119];waitSubmit[_0x817c[118]][_0x817c[117]]= _0x817c[119]};onlySelfBtn[_0x817c[95]]= function(){if(onlySelf){onlySelf= false;onlySelfBtn[_0x817c[125]]= _0x817c[126]}else {onlySelf= true;onlySelfBtn[_0x817c[125]]= _0x817c[127]};while(historyItemList[_0x817c[130]]()){historyItemList[_0x817c[129]](historyItemList[_0x817c[128]])};lastCommit= _0x817c[4];updateHistoryList()};var _0x7409x4a=function(_0x7409x45){var _0x7409x46=document[_0x817c[63]](_0x817c[110]+ _0x7409x45);_0x7409x46[_0x817c[95]]= function(){onSelectOption(_0x7409x45)}};for(var _0x7409x45=0;_0x7409x45< optionChance[_0x817c[131]];_0x7409x45++){_0x7409x4a(_0x7409x45)};betNum[_0x817c[132]]= function(){onChangeBetNum()};var _0x7409x4b=function(_0x7409x45){var _0x7409x4c=document[_0x817c[63]](_0x817c[133]+ _0x7409x45);_0x7409x4c[_0x817c[95]]= function(){betNum[_0x817c[134]]= (15* (_0x7409x45+ 1))[_0x817c[135]](2);onChangeBetNum()}};for(var _0x7409x45=0;_0x7409x45< 3;_0x7409x45++){_0x7409x4b(_0x7409x45)};var _0x7409x4d=document[_0x817c[63]](_0x817c[136]);_0x7409x4d[_0x817c[95]]= function(){betNum[_0x817c[134]]= diceMax[_0x817c[135]](2);;;onChangeBetNum()};var _0x7409x4e=document[_0x817c[63]](_0x817c[137]);_0x7409x4e[_0x817c[95]]= function(){var _0x7409x4f=Number(betNum[_0x817c[134]])- minAddAmount;if(_0x7409x4f< minAmount){_0x7409x4f= minAmount};betNum[_0x817c[134]]= _0x7409x4f[_0x817c[135]](2);onChangeBetNum()};var _0x7409x50=document[_0x817c[63]](_0x817c[138]);_0x7409x50[_0x817c[95]]= function(){var _0x7409x51=Number(betNum[_0x817c[134]])+ minAddAmount;if(_0x7409x51> diceMax){_0x7409x51= diceMax};betNum[_0x817c[134]]= _0x7409x51[_0x817c[135]](2);onChangeBetNum()};betBtn[_0x817c[95]]= function(){var _0x7409x52=0;var _0x7409x53=0;if(selectedBetNum== 0){_0x7409x53= setInterval(function(){_0x7409x52++;if(_0x7409x52% 2== 1){selectWarning[_0x817c[118]][_0x817c[139]]= _0x817c[140]}else {selectWarning[_0x817c[118]][_0x817c[139]]= _0x817c[141]};if(_0x7409x52== 10){clearInterval(_0x7409x53);selectWarning[_0x817c[118]][_0x817c[139]]= _0x817c[141]}},300);return};httpRequest(serverURL+ _0x817c[142],function(_0x7409x54,_0x7409x55){if(_0x7409x54){var _0x7409x56=JSON[_0x817c[143]](_0x7409x54);var _0x7409x57=getCoinBase();if(!_0x7409x57){window[_0x817c[90]](_0x817c[144]);return};var _0x7409x58=encodeABI(_0x817c[28],betMask,modulo,_0x7409x56[_0x817c[21]],_0x7409x56[_0x817c[22]],_0x7409x56[_0x817c[23]],_0x7409x56[_0x817c[25]],_0x7409x56[_0x817c[27]]);if(platform== _0x817c[85]){getWeb3()[_0x817c[107]][_0x817c[147]]({"\x67\x61\x73\x4C\x69\x6D\x69\x74":800000,from:_0x7409x57,to:contractAddr,value:amount* Wei,data:_0x7409x58},function(_0x7409x55,_0x7409x59){if(_0x7409x55){console[_0x817c[102]](_0x817c[145],_0x7409x55)}else {console[_0x817c[102]](_0x7409x59);waitSettleCommit= _0x7409x56[_0x817c[22]];localStorage[_0x817c[146]](_0x817c[120],waitSettleCommit);localStorage[_0x817c[146]](_0x817c[122],String(Date[_0x817c[123]]()));intervalUpdateHistoryList(1000);showWait()}})}else {var _0x7409x5a={"\x67\x61\x73\x50\x72\x69\x63\x65":1,"\x67\x61\x73\x4C\x69\x6D\x69\x74":800000,"\x6B\x65\x79\x54\x69\x6D\x65":_0x7409x56[_0x817c[22]],"\x63\x6F\x6E\x74\x72\x61\x63\x74\x41\x64\x64\x72\x65\x73\x73":contractAddr,"\x65\x74\x7A\x56\x61\x6C\x75\x65":amount* Wei,"\x64\x61\x74\x61\x73":_0x7409x58};var _0x7409x5b=JSON[_0x817c[148]](_0x7409x5a);window[_0x817c[109]][_0x817c[149]](_0x7409x5b)}}})};setPreSelectOption();updateHistoryList();intervalUpdateHistoryList(5000)}function showWait(){betBtn[_0x817c[88]]= true;resultPanel[_0x817c[118]][_0x817c[117]]= _0x817c[119];waitSubmit[_0x817c[118]][_0x817c[117]]= _0x817c[150]}function makeSaveData(_0x7409x5e,_0x7409x5f){console[_0x817c[102]](_0x7409x5e);waitSettleCommit= _0x7409x5f;localStorage[_0x817c[146]](_0x817c[120],waitSettleCommit);localStorage[_0x817c[146]](_0x817c[122],String(Date[_0x817c[123]]()));intervalUpdateHistoryList(1000);showWait()}function setPreSelectOption(){preSelectOption= [];var _0x7409x61=6;for(var _0x7409x45=0;_0x7409x45< _0x7409x61- 2;_0x7409x45++){for(var _0x7409x62=_0x7409x45+ 1;_0x7409x62< _0x7409x61- 2;_0x7409x62++){preSelectOption[_0x817c[151]]([_0x7409x45,_0x7409x62,_0x7409x62+ 1])}};var _0x7409x63=Math[_0x817c[153]](preSelectOption[_0x817c[131]]* Math[_0x817c[152]]());var _0x7409x64=preSelectOption[_0x7409x63];for(var _0x7409x45=0;_0x7409x45< _0x7409x64[_0x817c[131]];_0x7409x45++){onSelectOption(_0x7409x64[_0x7409x45])}}var updateHistoryListHandle=0;function intervalUpdateHistoryList(_0x7409x67){if(updateHistoryListHandle!= 0){clearInterval(updateHistoryListHandle)};updateHistoryListHandle= setInterval(updateHistoryList,_0x7409x67)}function updateHistoryList(){httpRequest(serverURL+ _0x817c[154],function(_0x7409x69){if(_0x7409x69){var _0x7409x6a=JSON[_0x817c[143]](_0x7409x69);bigAwardNum[_0x817c[155]]= _0x7409x6a[_0x817c[156]][_0x817c[135]](3)}});var _0x7409x6b=_0x817c[4];if(onlySelf){_0x7409x6b= getCoinBase()};httpRequest(serverURL+ _0x817c[157]+ gameIndex+ _0x817c[158]+ _0x7409x6b+ _0x817c[159]+ lastCommit,function(_0x7409x6c){var _0x7409x6d=JSON[_0x817c[143]](_0x7409x6c);if(_0x7409x6d&& _0x7409x6d[_0x817c[156]][_0x817c[131]]> 0){var _0x7409x6e=null;lastCommit= _0x7409x6d[_0x817c[156]][0][_0x817c[22]];for(var _0x7409x45=_0x7409x6d[_0x817c[156]][_0x817c[131]]- 1;_0x7409x45>= 0;_0x7409x45--){if(_0x7409x6d[_0x817c[156]][_0x7409x45][_0x817c[22]]== waitSettleCommit){waitSettleCommit= null;localStorage[_0x817c[124]](_0x817c[120]);_0x7409x6e= {"\x77\x69\x6E\x4E\x75\x6D":Number(_0x7409x6d[_0x817c[156]][_0x7409x45][_0x817c[160]])}};appendHistoryItem(_0x7409x6d[_0x817c[156]][_0x7409x45])};if(_0x7409x6e){betBtn[_0x817c[88]]= true;resultPanel[_0x817c[118]][_0x817c[117]]= _0x817c[150];waitSubmit[_0x817c[118]][_0x817c[117]]= _0x817c[119];var _0x7409x6f=_0x817c[161];if(_0x7409x6e[_0x817c[162]]> 0){resultPanelTitle[_0x817c[125]]= _0x817c[163];playStar()}else {resultPanelTitle[_0x817c[125]]= _0x817c[164];_0x7409x6f= _0x817c[4]};var diceName=_0x817c[60];betTargetElem= betTargetElem[_0x817c[166]](/class=\"/g,_0x817c[165]+ _0x7409x6f);resultElem= resultElem[_0x817c[166]](/class=\"/g,_0x817c[165]+ _0x7409x6f);betOn[_0x817c[125]]= _0x817c[167]+ diceName+ _0x817c[168]+ betTargetElem+ _0x817c[169];betResult[_0x817c[125]]= _0x817c[170]+ diceName+ _0x817c[168]+ resultElem+ _0x817c[169];intervalUpdateHistoryList(5000)}}})}function showOrHidden(_0x7409x71){_0x7409x71[_0x817c[178]](_0x817c[171],function(){var _0x7409x67=$(this);if(_0x7409x67[_0x817c[175]](_0x817c[174])[_0x817c[173]](_0x817c[172])){_0x7409x67[_0x817c[175]](_0x817c[174])[_0x817c[176]](0)}else {_0x7409x67[_0x817c[175]](_0x817c[174])[_0x817c[177]](0)}})}function httpRequest(_0x7409x73,_0x7409x74){var _0x7409x75= new XMLHttpRequest();_0x7409x75[_0x817c[179]]= function(_0x7409x55){console[_0x817c[102]](_0x817c[180],_0x7409x55)};_0x7409x75[_0x817c[181]]= function(_0x7409x55){console[_0x817c[102]](_0x817c[182],_0x7409x55)};_0x7409x75[_0x817c[183]]= function(_0x7409x76){if(_0x7409x76[_0x817c[185]][_0x817c[184]]== 200){_0x7409x74(_0x7409x76[_0x817c[185]][_0x817c[186]])}else {}};_0x7409x75[_0x817c[98]](_0x817c[187],_0x7409x73,false);try{_0x7409x75[_0x817c[188]]()}catch(e){console[_0x817c[102]](_0x817c[189],e)}}function appendHistoryItem(_0x7409x78){var _0x7409x79=document[_0x817c[191]](_0x817c[190]);var _0x7409x7a=_0x817c[4];var _0x7409x7b=_0x817c[192];var _0x7409x7c=_0x817c[192];var _0x7409x7d=false;if(Number(_0x7409x78[_0x817c[160]])> 0){_0x7409x7d= true};_0x7409x7c= _0x7409x78[_0x817c[193]];if(_0x7409x7d){_0x7409x79[_0x817c[194]]= _0x817c[195];_0x7409x7a= _0x817c[196];_0x7409x7b= _0x7409x78[_0x817c[197]]}else {_0x7409x79[_0x817c[194]]= _0x817c[198]};var _0x7409x7e=parseBetTarget(_0x7409x78[_0x817c[50]]);var betResult=parseBetResult(_0x7409x78[_0x817c[199]]);var _0x7409x7f=parseLuckyNumber(_0x7409x78[_0x817c[200]],Number(_0x7409x78[_0x817c[201]]));if(modulo== 2){diceName= _0x817c[202];if(_0x7409x7e[0]== 1){betTargetElem= _0x817c[203]}else {betTargetElem= _0x817c[204]};if(betResult[0]== 1){resultElem= _0x817c[203]}else {resultElem= _0x817c[204]}}else {if(modulo== 6){diceName= _0x817c[60];betTargetElem= _0x817c[4];for(var _0x7409x45=0;_0x7409x45< _0x7409x7e[_0x817c[131]];_0x7409x45++){betTargetElem+= (_0x817c[205]+ (_0x7409x7e[_0x7409x45]- 1)+ _0x817c[206])};resultElem= _0x817c[205]+ (betResult[0]- 1)+ _0x817c[206]}else {if(modulo== 36){diceName= _0x817c[207];betTargetElem= _0x7409x7e.toString();resultElem= _0x817c[205]+ (betResult[0]- 1)+ _0x817c[208]+ (betResult[1]- 1)+ _0x817c[206]}else {diceName= _0x817c[209];betTargetElem= _0x817c[210]+ _0x7409x7e[0];resultElem= _0x817c[211]+ betResult[0]+ _0x817c[212]}}};_0x7409x79[_0x817c[125]]= _0x817c[213]+ _0x7409x78[_0x817c[49]][_0x817c[214]](0,8)+ _0x817c[215]+ _0x7409x78[_0x817c[200]]+ _0x817c[216]+ diceName+ _0x817c[168]+ betTargetElem+ _0x817c[217]+ diceName+ _0x817c[168]+ resultElem+ _0x817c[218]+ _0x7409x7a+ _0x817c[219]+ _0x7409x7b+ _0x817c[220]+ _0x7409x7f+ _0x817c[221]+ _0x7409x78[_0x817c[49]]+ _0x817c[168]+ _0x7409x78[_0x817c[49]]+ _0x817c[222]+ _0x7409x78[_0x817c[200]]+ _0x817c[223]+ _0x7409x7e.toString()+ _0x817c[224]+ _0x7409x78[_0x817c[225]]+ _0x817c[168]+ _0x7409x78[_0x817c[225]]+ _0x817c[226]+ _0x7409x78[_0x817c[227]]+ _0x817c[228]+ _0x7409x78[_0x817c[229]]+ _0x817c[230]+ _0x7409x78[_0x817c[21]]+ _0x817c[231]+ _0x7409x78[_0x817c[201]]+ _0x817c[232]+ modulo+ _0x817c[233]+ betResult[_0x817c[235]](_0x817c[234])+ _0x817c[236]+ _0x7409x7f+ _0x817c[237]+ _0x7409x78[_0x817c[238]]+ _0x817c[239]+ _0x7409x78[_0x817c[160]]+ _0x817c[240];if(historyItemList[_0x817c[241]][_0x817c[131]]== 0){historyItemList[_0x817c[93]](_0x7409x79)}else {historyItemList[_0x817c[242]](_0x7409x79,historyItemList[_0x817c[241]][0])};$(_0x7409x79)[_0x817c[175]](_0x817c[174])[_0x817c[177]](0);showOrHidden(_0x7409x79)}function parseLuckyNumber(_0x7409x81,_0x7409x82){return (_0x7409x82/ modulo)% JACKPOT_MODULO}function parseBetTarget(betMask){var _0x7409x84=betMask.toString(2);var _0x7409x85=[];for(var _0x7409x45=0;_0x7409x45< _0x7409x84[_0x817c[131]];_0x7409x45++){var _0x7409x86=_0x7409x84[_0x817c[131]]- _0x7409x45- 1;if(_0x7409x84[_0x817c[243]](_0x7409x86)== _0x817c[116]){if(_0x7409x85[_0x817c[244]](betTargets[_0x7409x45])==  -1){_0x7409x85[_0x817c[151]](betTargets[_0x7409x45])}}};return _0x7409x85}function parseBetResult(_0x7409x88){return [betTargets[_0x7409x88]]}function onChangeBetTarget(_0x7409x8a,_0x7409x8b){var _0x7409x8c=optionChance[_0x7409x8a];if(_0x7409x8b== _0x817c[116]){selectedBetNum+= _0x7409x8c}else {selectedBetNum-= _0x7409x8c};winRate= selectedBetNum/ modulo;standZoomRate= modulo/ selectedBetNum;diceMax= Number((5000/ (standZoomRate- 1))[_0x817c[135]](2));if(diceMax> MAX_AMOUNT){diceMax= MAX_AMOUNT};winChance[_0x817c[155]]= (winRate* 100)[_0x817c[135]](2)+ _0x817c[245];var _0x7409x8d=_0x817c[4];for(var _0x7409x45=0;_0x7409x45< _0x7409x8c;_0x7409x45++){_0x7409x8d+= _0x7409x8b};var _0x7409x8e=maskBinStr100[_0x817c[131]];for(var _0x7409x62=0;_0x7409x62<= _0x7409x8a;_0x7409x62++){_0x7409x8e-= optionChance[_0x7409x62]};var _0x7409x8f=maskBinStr100[_0x817c[214]](0,_0x7409x8e);var _0x7409x90=maskBinStr100[_0x817c[214]](_0x7409x8e+ _0x7409x8c);maskBinStr100= _0x7409x8f+ _0x7409x8d+ _0x7409x90;betMask= parseInt(maskBinStr100,2);console[_0x817c[102]](_0x817c[246],maskBinStr100,_0x817c[247],betMask);if(betMask<= 0){return -1};update()}function onChangeBetNum(){amount= Number(betNum[_0x817c[134]]);if(isNaN(amount)|| amount< minAmount){amount= minAmount;betNum[_0x817c[134]]= minAmount[_0x817c[135]](2)};if(amount> diceMax){amount= diceMax;betNum[_0x817c[134]]= diceMax[_0x817c[135]](2)};if(amount< 60){feeRate= 0.02}else {if(amount< 100){feeRate= 0.01}else {feeRate= 0.005}};if(amount> 100){jackpotFee= 1}else {jackpotFee= 0};update()}function update(){fee= amount* standZoomRate* feeRate;jackpotFee= amount>= MIN_JACKPOT_BET?JACKPOT_FEE:0;realZoomRate= (amount* standZoomRate- fee- jackpotFee)/ amount;feeRateLabel[_0x817c[155]]= (feeRate* 100)[_0x817c[135]](1)+ _0x817c[248];rateLabel[_0x817c[155]]= realZoomRate[_0x817c[135]](2)+ _0x817c[245];winAmount= amount* realZoomRate;winCoin[_0x817c[155]]= winAmount[_0x817c[135]](2);if(amount< MIN_JACKPOT_BET){bigAwardDes[_0x817c[88]]= true;luckyNumber[_0x817c[88]]= true;bigAwardMinDes[_0x817c[88]]= false}else {bigAwardDes[_0x817c[88]]= false;luckyNumber[_0x817c[88]]= false;bigAwardMinDes[_0x817c[88]]= true}}function encodeABI(_0x7409x94){var _0x7409x95=[];for(var _0x7409x96=1;_0x7409x96< arguments[_0x817c[131]];_0x7409x96++){_0x7409x95[_0x7409x96- 1]= arguments[_0x7409x96]};var _0x7409x97;for(var _0x7409x45=0;_0x7409x45< petContractABI[_0x817c[131]];_0x7409x45++){_0x7409x97= petContractABI[_0x7409x45];if(_0x7409x97[_0x817c[249]]== _0x7409x94&& _0x7409x97[_0x817c[250]]== _0x817c[9]){break}};return encodeSha3[_0x817c[252]](void(0),[_0x7409x97][_0x817c[251]](_0x7409x95))}function encodeSha3(_0x7409x97){var _0x7409x95=[];for(var _0x7409x96=1;_0x7409x96< arguments[_0x817c[131]];_0x7409x96++){_0x7409x95[_0x7409x96- 1]= arguments[_0x7409x96]};if(!_0x7409x97){return _0x817c[4]};var _0x7409x99=_0x7409x97[_0x817c[249]]+ _0x817c[253];if(_0x7409x97[_0x817c[254]]){for(var _0x7409x62=0;_0x7409x62< _0x7409x97[_0x817c[254]][_0x817c[131]];_0x7409x62++){_0x7409x99= _0x7409x99+ _0x7409x97[_0x817c[254]][_0x7409x62][_0x817c[250]];if(_0x7409x62< _0x7409x97[_0x817c[254]][_0x817c[131]]- 1){_0x7409x99= _0x7409x99+ _0x817c[255]}}};_0x7409x99= _0x7409x99+ _0x817c[256];var _0x7409x9a=_0x817c[257]+ keccak256(_0x7409x99);_0x7409x9a= _0x7409x9a[_0x817c[214]](0,10);var _0x7409x58=_0x7409x9a;var _0x7409x9b;var _0x7409x9c;var _0x7409x9d=_0x817c[4];for(var _0x7409x9e=0;_0x7409x9e< _0x7409x95[_0x817c[131]];_0x7409x9e++){_0x7409x9b=  typeof (_0x7409x95[_0x7409x9e]);if(_0x7409x9b== _0x817c[258]){if(_0x7409x95[_0x7409x9e]>= 0){_0x7409x95[_0x7409x9e]= _0x7409x95[_0x7409x9e].toString(16);_0x7409x9c= zeroStr64[_0x817c[214]](0,64- _0x7409x95[_0x7409x9e][_0x817c[131]])}else {var _0x7409x9f=(-_0x7409x95[_0x7409x9e]).toString(16);var _0x7409xa0=_0x817c[259];for(var _0x7409x45=0;_0x7409x45< _0x7409x9f[_0x817c[131]];_0x7409x45++){_0x7409xa0= _0x7409xa0+ _0x817c[115]};_0x7409x95[_0x7409x9e]= (parseInt(_0x7409xa0)+ _0x7409x95[_0x7409x9e]).toString(16);_0x7409x9c= fStr64[_0x817c[214]](0,64- _0x7409x95[_0x7409x9e][_0x817c[131]])}}else {if(_0x7409x9b== _0x817c[260]){if(_0x7409x95[_0x7409x9e][_0x817c[244]](_0x817c[257])== 0){_0x7409x95[_0x7409x9e]= _0x7409x95[_0x7409x9e][_0x817c[214]](2);_0x7409x9c= zeroStr64[_0x817c[214]](0,64- _0x7409x95[_0x7409x9e][_0x817c[131]])}else {var _0x7409xa1=_0x817c[4];for(var _0x7409xa2=0;_0x7409xa2< _0x7409x95[_0x7409x9e][_0x817c[131]];_0x7409xa2++){var _0x7409x46=_0x7409x95[_0x7409x9e][_0x817c[261]](_0x7409xa2).toString(16);_0x7409xa1+= _0x7409x46};_0x7409x95[_0x7409x9e]= (_0x7409x97[_0x817c[254]][_0x817c[131]]* 32+ _0x7409x9d[_0x817c[131]]/ 2).toString(16);_0x7409x9c= zeroStr64[_0x817c[214]](0,64- _0x7409x95[_0x7409x9e][_0x817c[131]]);_0x7409xa1+= zeroStr64[_0x817c[214]](0,64- _0x7409xa1[_0x817c[131]]);var _0x7409xa3=_0x7409x95[_0x7409x9e][_0x817c[131]].toString(16);_0x7409x9d= _0x7409x9d+ zeroStr64[_0x817c[214]](0,64- _0x7409xa3[_0x817c[131]])+ _0x7409xa3;_0x7409x9d= _0x7409x9d+ _0x7409xa1}}else {if(_0x7409x9b== _0x817c[262]){_0x7409x9c= _0x817c[4]}else {if(_0x7409x9b== _0x817c[263]){if(Array[_0x817c[264]](_0x7409x95[_0x7409x9e])){var _0x7409xa1=_0x817c[4];if(_0x7409x97[_0x817c[254]][_0x7409x9e][_0x817c[250]][_0x817c[244]](_0x817c[265])!=  -1){for(var _0x7409xa2=0;_0x7409xa2< _0x7409x95[_0x7409x9e][_0x817c[131]];_0x7409xa2++){var _0x7409x46=parseInt(_0x7409x95[_0x7409x9e][_0x7409xa2]).toString(16);_0x7409xa1+= (zeroStr64[_0x817c[214]](0,64- _0x7409x46[_0x817c[131]])+ _0x7409x46)}}else {if(_0x7409x97[_0x817c[254]][_0x7409x9e][_0x817c[250]]== _0x817c[266]){for(var _0x7409xa2=0;_0x7409xa2< _0x7409x95[_0x7409x9e][_0x817c[131]];_0x7409xa2++){var _0x7409x46=String(_0x7409x95[_0x7409x9e][_0x7409xa2]);if(_0x7409x46[_0x817c[244]](_0x817c[257])== 0){_0x7409x46= _0x7409x46[_0x817c[214]](2)};_0x7409xa1+= (zeroStr64[_0x817c[214]](0,64- _0x7409x46[_0x817c[131]])+ _0x7409x46)}}else {_0x7409xa1= _0x817c[4]}};_0x7409x95[_0x7409x9e]= (_0x7409x97[_0x817c[254]][_0x817c[131]]* 32+ _0x7409x9d[_0x817c[131]]/ 2).toString(16);_0x7409x9c= zeroStr64[_0x817c[214]](0,64- _0x7409x95[_0x7409x9e][_0x817c[131]]);var _0x7409xa3=_0x7409x95[_0x7409x9e][_0x817c[131]].toString(16);_0x7409x9d= _0x7409x9d+ zeroStr64[_0x817c[214]](0,64- _0x7409xa3[_0x817c[131]])+ _0x7409xa3;_0x7409x9d= _0x7409x9d+ _0x7409xa1}else {_0x7409x9c= _0x817c[4]}}else {_0x7409x9c= _0x817c[4]}}}};_0x7409x58= _0x7409x58+ _0x7409x9c+ _0x7409x95[_0x7409x9e]};_0x7409x58= _0x7409x58+ _0x7409x9d;return _0x7409x58}
+var contractAddr = "0x1B8356E2EA33aEb90eA80439630E5a07C1678542";
+// const contractAddr = "0x5d478631823cef55441bc71e4365a1836d1e4cbd";//t 
+const serverURL = "http://zerodice.io:6769/";
+const providerURL = "http://etzrpc.org:80";
+// const serverURL = "http://localhost:6769/";
+// const providerURL = "http://localhost:80";
+// var serverURL = "http://54.205.230.215:6769/";
+// var providerURL = "http://54.205.230.215:9646";
+// const serverURL = "http://192.168.199.214:6769/";//t 
+// const providerURL = "http://192.168.199.214:9646";//t 
+var MUNITE_3 = 3 * 60 * 1000;
+var targetNetwork = "90";
+var platform = platform();
+var etz_web3;
+var etzWeb3;
+var gameIndex = 1;
+var modulo = 6; //总共多少种可能
+//每个选项有几种组合可能
+var betTargets = [1, 2, 3, 4, 5, 6]; //押注目标，可以押注多个目标
+var optionChance = [1, 1, 1, 1, 1, 1]; //每个押注目标的组合数
+var MIN_JACKPOT_BET = 100;
+var JACKPOT_FEE = 1;
+var JACKPOT_MODULO = 1000;
+var MAX_MASK_MODULO = 40;
+var MAX_AMOUNT = 2000; //最大下注额diceMax的上限
+var winRate = 0.5; //赢的概率
+var fee = 0; //手续费
+var jackpotFee = 0; //大奖筹费
+var feeRate = 0.02; //手续费费率
+var standZoomRate = 1; //标准倍率
+var realZoomRate = 1; //实际倍率
+var winAmount = 0; //将赢得金额
+var diceMax = 5.10; //最大下注额
+var minAddAmount = 1;
+var minAmount = 10;
+var selectedBetNum = 0; //选择下注目标数量
+var maskBinStr100 = "";
+var betMask = 0; //押注对象组成的掩码
+var amount = 18; //押注金额etz
+var preSelectOption; //打开网页预先设置为胜利率为50%的押注组合
+var lastCommit = "";
+var waitSettleCommit; //正在等待开奖的押注
+var onlySelf = false;
+var diceName; //游戏类别名
+var betTargetElem; //押注对象
+var resultElem; //开奖结果
+var petContractABI = [{"constant":false,"inputs":[],"name":"acceptNextOwner","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"_newCOO","type":"address"}],"name":"addCOO","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"_nextOwner","type":"address"}],"name":"approveNextOwner","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"increaseAmount","type":"uint256"}],"name":"increaseJackpot","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[],"name":"kill","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"betMask","type":"uint256"},{"name":"modulo","type":"uint256"},{"name":"commitLastBlock","type":"uint256"},{"name":"commit","type":"uint256"},{"name":"v","type":"uint8"},{"name":"r","type":"bytes32"},{"name":"s","type":"bytes32"}],"name":"placeBet","outputs":[],"payable":true,"stateMutability":"payable","type":"function"},{"constant":false,"inputs":[{"name":"commit","type":"uint256"}],"name":"refundBet","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"_maxProfit","type":"uint256"}],"name":"setMaxProfit","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"reveal","type":"uint256"},{"name":"placeBlockNum","type":"uint256"}],"name":"settleBet","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"beneficiary","type":"address"},{"name":"withdrawAmount","type":"uint256"},{"name":"safe","type":"uint8"}],"name":"withdrawFunds","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"inputs":[],"payable":false,"stateMutability":"nonpayable","type":"constructor"},{"payable":true,"stateMutability":"payable","type":"fallback"},{"anonymous":false,"inputs":[{"indexed":true,"name":"commit","type":"uint256"},{"indexed":true,"name":"gambler","type":"address"},{"indexed":true,"name":"modulo","type":"uint8"},{"indexed":false,"name":"mask","type":"uint40"},{"indexed":false,"name":"amount","type":"uint256"},{"indexed":false,"name":"playceBlock","type":"uint256"}],"name":"OnPlaceBet","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"beneficiary","type":"address"},{"indexed":false,"name":"amount","type":"uint256"}],"name":"FailedPayment","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"name":"beneficiary","type":"address"},{"indexed":false,"name":"totalAmount","type":"uint256"},{"indexed":false,"name":"amount","type":"uint256"}],"name":"Payment","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"commit","type":"uint256"},{"indexed":true,"name":"gambler","type":"address"},{"indexed":true,"name":"totalAmount","type":"uint256"},{"indexed":false,"name":"amount","type":"uint256"},{"indexed":false,"name":"reveal","type":"uint256"},{"indexed":false,"name":"entropy","type":"uint256"},{"indexed":false,"name":"dice","type":"uint256"}],"name":"SettleBetPayment","type":"event"},{"constant":true,"inputs":[{"name":"","type":"uint256"}],"name":"cooAddress","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"","type":"uint256"}],"name":"dealFailList","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"dealFailNum","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"jackpotSize","outputs":[{"name":"","type":"uint128"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"lockedInBets","outputs":[{"name":"","type":"uint128"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"maxProfit","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"owner","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"undealBetNum","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"}];
+var resultPanel = document.getElementById("resultPanel");
+var waitSubmit = document.getElementById("waitSubmit");
+var resultPanelTitle = document.getElementById("resultPanelTitle");
+var betOn = document.getElementById("betOn");
+var betResult = document.getElementById("betResult");
+var restartBtn = document.getElementById("restartBtn");
+var betNum = document.getElementById("betNum");
+var winChance = document.getElementById('winChance');
+var rateLabel = document.getElementById('rateLabel');
+var winCoin = document.getElementById('winCoin');
+var bigAwardDes = document.getElementById('bigAwardDes');
+var luckyNumber = document.getElementById('luckyNumber');
+var bigAwardMinDes = document.getElementById('bigAwardMinDes');
+var betBtn = document.getElementById('betBtn');
+var bigAwardNum = document.getElementById('bigAwardNum');
+var historyItemList = document.getElementById('historyItemList');
+var feeRateLabel = document.getElementById('feeRateLabel');
+var selectWarning = document.getElementById('selectWarning');
+var onlySelfBtn = document.getElementById('onlySelfBtn');
+var zeroStr64 = "0000000000000000000000000000000000000000000000000000000000000000";
+var fStr64 = "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff";
+var Wei = 1000000000000000000;
+window.onload = function () {
+    // var el = document.getElementById('content');
+    // var greeter = new Greeter(el);
+    initWeb3();
+    initGame();
+};
+function initWeb3() {
+    if (platform != "pc") //t 注释暂时关闭检测
+        return;
+    // if(!window.web3_etz){//用来判断你是否安装了goETZ钱包插件
+    if (!window.web3_etz && !window.web3) { //用来判断你是否安装了goETZ或metamask钱包插件
+        betBtn.hidden = true;
+        window.alert('Please install wallet plugin first. goETZ\n请先安装goETZ插件'); //如果没有会去提示你先去安装
+        //显示安装按钮
+        var installImg = new Image();
+        installImg.src = "./static/installMetalMask.png";
+        betBtn.parentNode.appendChild(installImg);
+        installImg.onclick = function () {
+            //window.open("https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=en","_blank");
+            window.open("https://etherzero.gitbook.io/doc/yi-tai-fang-dapp-ru-he-qian-yi-dao-yi-tai-ling-shang-yun-hang", "_blank");
+        };
+        //    var installInterValHandle;
+        //    installInterValHandle = setInterval(()=>{
+        //        if(window.web3){
+        //            clearInterval(installInterValHandle);
+        //            betBtn.hidden = false;
+        //            installImg.hidden = true;
+        //            checkProvider();
+        //        }
+        //    }, 1000);
+        return;
+    }
+    checkProvider();
+}
+function checkProvider() {
+    if (platform != "pc")
+        return;
+    var network;
+    if (window.web3_etz) {
+        etzWeb3 = window.web3_etz; //new Web3(new Web3.providers.HttpProvider(providerURL));
+        network = etzWeb3.version.network;
+    }
+    else {
+        web3 = window.web3; //new Web3(new Web3.providers.HttpProvider(providerURL));
+        network = web3.version.network;
+    }
+    console.log("network:", network);
+    if (network && network != targetNetwork) {
+        //显示切换网络按钮
+        // var switchNetImg = new Image();
+        // switchNetImg.src = "./static/switchNet.png";
+        // betBtn.parentNode.appendChild(switchNetImg);
+        // betBtn.hidden = true;
+        if (window.web3_etz) {
+            // window.web3_etz.setProvider(new Web3.providers.HttpProvider(providerURL));
+            // etzWeb3 = window.web3_etz;
+            etzWeb3 = new Web3(new Web3.providers.HttpProvider(providerURL));
+            console.log("etzWeb3.version.network:", etzWeb3.version.network);
+        }
+        else {
+            // window.web3.setProvider(new Web3.providers.HttpProvider(providerURL));
+            // web3 = window.web3;
+            web3 = new Web3(new Web3.providers.HttpProvider(providerURL));
+            console.log("web3.version.network:", web3.version.network);
+        }
+    }
+}
+function getWeb3() {
+    if (etzWeb3) {
+        return etzWeb3;
+    }
+    else {
+        return web3;
+    }
+}
+function getCoinBase() {
+    if (platform == "pc")
+        return getWeb3().eth.coinbase;
+    else
+        return window.easyetz.getAddress();
+}
+function onSelectOption(i) {
+    var elem = document.getElementById("option" + i);
+    if (elem.dataset['checked'] == "true") {
+        if (selectedBetNum - optionChance[i] < 1) {
+            return;
+        }
+        elem.dataset['checked'] = "false";
+        onChangeBetTarget(i, "0");
+    }
+    else {
+        if (selectedBetNum + optionChance[i] == modulo) {
+            return;
+        }
+        elem.dataset['checked'] = "true";
+        onChangeBetTarget(i, "1");
+    }
+}
+function initGame() {
+    //初始化40个二进制字符串
+    for (var z = 0; z < 40; z++) {
+        maskBinStr100 += "0";
+    }
+    luckyNumber.hidden = true;
+    resultPanel.style.display = "none";
+    waitSubmit.style.display = "none";
+    waitSettleCommit = localStorage.getItem("waitSettleCommit");
+    var waitStartTime = parseInt(localStorage.getItem("waitStartTime"));
+    if (waitSettleCommit && Date.now() - waitStartTime < MUNITE_3) {
+        showWait();
+    }
+    else {
+        localStorage.removeItem("waitSettleCommit");
+        waitSettleCommit = null;
+        betBtn.hidden = false;
+    }
+    restartBtn.onclick = function () {
+        betBtn.hidden = false;
+        resultPanel.style.display = "none";
+        waitSubmit.style.display = "none";
+    };
+    onlySelfBtn.onclick = function () {
+        if (onlySelf) {
+            onlySelf = false;
+            onlySelfBtn.innerHTML = "只看我的";
+        }
+        else {
+            onlySelf = true;
+            onlySelfBtn.innerHTML = "查看全部";
+        }
+        while (historyItemList.hasChildNodes()) {
+            historyItemList.removeChild(historyItemList.firstChild);
+        }
+        lastCommit = "";
+        updateHistoryList();
+    };
+    var _loop_1 = function (i) {
+        var elem = document.getElementById("option" + i);
+        elem.onclick = function () { onSelectOption(i); };
+    };
+    //监听骰子按钮
+    for (var i = 0; i < optionChance.length; i++) {
+        _loop_1(i);
+    }
+    //监听押注金额
+    betNum.onchange = function () {
+        onChangeBetNum();
+    };
+    var _loop_2 = function (i) {
+        var betNumBtn = document.getElementById("betNumBtn" + i);
+        betNumBtn.onclick = function () {
+            betNum["value"] = (15 * (i + 1)).toFixed(2);
+            onChangeBetNum();
+        };
+    };
+    //监听投注数量Btn
+    for (var i = 0; i < 3; i++) {
+        _loop_2(i);
+    }
+    //最大投注额
+    var betNumBtnMax = document.getElementById("betNumBtnMax");
+    betNumBtnMax.onclick = function () {
+        betNum["value"] = diceMax.toFixed(2);
+        ;
+        onChangeBetNum();
+    };
+    //监听投注加减
+    var betNumSub = document.getElementById("betNumSub");
+    betNumSub.onclick = function () {
+        var subRes = Number(betNum["value"]) - minAddAmount;
+        if (subRes < minAmount)
+            subRes = minAmount;
+        betNum["value"] = subRes.toFixed(2);
+        onChangeBetNum();
+    };
+    var betNumAdd = document.getElementById("betNumAdd");
+    betNumAdd.onclick = function () {
+        var addRes = Number(betNum["value"]) + minAddAmount;
+        if (addRes > diceMax)
+            addRes = diceMax;
+        betNum["value"] = addRes.toFixed(2);
+        onChangeBetNum();
+    };
+    //监听下注按钮
+    betBtn.onclick = function () {
+        var showTime = 0;
+        var intervalHandle = 0;
+        if (selectedBetNum == 0) {
+            intervalHandle = setInterval(function () {
+                showTime++;
+                if (showTime % 2 == 1)
+                    selectWarning.style.color = "#ff3333";
+                else
+                    selectWarning.style.color = "#ffffff";
+                if (showTime == 10) {
+                    clearInterval(intervalHandle);
+                    selectWarning.style.color = "#ffffff";
+                }
+            }, 300);
+            return;
+        }
+        httpRequest(serverURL + "getSign", function (response, err) {
+            if (response) {
+                var serverSign_1 = JSON.parse(response);
+                var coinbase = getCoinBase();
+                if (!coinbase) { //这个是判断你有没有登录，coinbase是你此时选择的账号
+                    window.alert('Please activate MetaMask first.');
+                    return;
+                }
+                // if (typeof web3 !== 'undefined') {}
+                var inputData = encodeABI("placeBet", betMask, modulo, serverSign_1.commitLastBlock, serverSign_1.commit, serverSign_1.v, serverSign_1.r, serverSign_1.s);
+                if (platform == "pc") {
+                    getWeb3().eth.sendTransaction({
+                        // gasPrice: 180000,
+                        // gas: 100000000,
+                        "gasLimit": 800000,
+                        from: coinbase,
+                        to: contractAddr,
+                        value: amount * Wei,
+                        data: inputData
+                    }, function (err, hash) {
+                        if (err) {
+                            console.log("sendTX err: ", err);
+                        }
+                        else {
+                            console.log(hash);
+                            waitSettleCommit = serverSign_1.commit;
+                            localStorage.setItem("waitSettleCommit", waitSettleCommit);
+                            localStorage.setItem("waitStartTime", String(Date.now()));
+                            intervalUpdateHistoryList(1000);
+                            showWait();
+                        }
+                    });
+                }
+                else { //移动端通过钱包app发交易
+                    var sendObj = {
+                        "gasPrice": 1,
+                        "gasLimit": 800000,
+                        "keyTime": serverSign_1.commit,
+                        "contractAddress": contractAddr,
+                        "etzValue": amount * Wei,
+                        "datas": inputData
+                    };
+                    var txJsonStr = JSON.stringify(sendObj);
+                    window.easyetz.etzTransaction(txJsonStr);
+                }
+            }
+        });
+    };
+    setPreSelectOption();
+    updateHistoryList();
+    intervalUpdateHistoryList(5000);
+}
+function showWait() {
+    betBtn.hidden = true;
+    resultPanel.style.display = "none";
+    waitSubmit.style.display = "block";
+}
+//钱包发送交易后的回调
+function makeSaveData(txHash, keyTime) {
+    console.log(txHash);
+    waitSettleCommit = keyTime;
+    localStorage.setItem("waitSettleCommit", waitSettleCommit);
+    localStorage.setItem("waitStartTime", String(Date.now()));
+    intervalUpdateHistoryList(1000);
+    //betBtn.innerHTML = "约5秒后开奖";
+    showWait();
+}
+function setPreSelectOption() {
+    //imp 
+    preSelectOption = [];
+    var optionNum = 6;
+    for (var i = 0; i < optionNum - 2; i++) {
+        for (var j = i + 1; j < optionNum - 2; j++) {
+            preSelectOption.push([i, j, j + 1]);
+        }
+    }
+    var selectedCompIndex = Math.floor(preSelectOption.length * Math.random());
+    var selectedComp = preSelectOption[selectedCompIndex];
+    for (var i = 0; i < selectedComp.length; i++) {
+        onSelectOption(selectedComp[i]);
+    }
+}
+var updateHistoryListHandle = 0;
+function intervalUpdateHistoryList(t) {
+    if (updateHistoryListHandle != 0)
+        clearInterval(updateHistoryListHandle);
+    updateHistoryListHandle = setInterval(updateHistoryList, t);
+}
+function updateHistoryList() {
+    //更新奖池
+    httpRequest(serverURL + "jackpot", function (jackpotStr) {
+        if (jackpotStr) {
+            var jackpotData = JSON.parse(jackpotStr);
+            bigAwardNum.innerText = jackpotData.data.toFixed(3);
+        }
+    });
+    //更新交易列表
+    var selfAddr = "";
+    if (onlySelf)
+        selfAddr = getCoinBase();
+    httpRequest(serverURL + "historyLog?gameIndex=" + gameIndex + "&address=" + selfAddr + "&lastCommit=" + lastCommit, function (newBetListStr) {
+        var newBetListData = JSON.parse(newBetListStr);
+        if (newBetListData && newBetListData.data.length > 0) {
+            var betResultMsg = null;
+            lastCommit = newBetListData.data[0].commit;
+            for (var i = newBetListData.data.length - 1; i >= 0; i--) {
+                if (newBetListData.data[i].commit == waitSettleCommit) {
+                    waitSettleCommit = null;
+                    localStorage.removeItem("waitSettleCommit");
+                    betResultMsg = { "winNum": Number(newBetListData.data[i].totalWin) };
+                }
+                appendHistoryItem(newBetListData.data[i]);
+            }
+            if (betResultMsg) { //显示开奖
+                betBtn.hidden = true;
+                resultPanel.style.display = "block";
+                waitSubmit.style.display = "none";
+                var winFlag = "wonItem ";
+                if (betResultMsg.winNum > 0) {
+                    // betResult.hidden = false;
+                    resultPanelTitle.innerHTML = "恭喜！您赢了^^";
+                    playStar();
+                }
+                else {
+                    resultPanelTitle.innerHTML = "您输了:(";
+                    winFlag = "";
+                }
+                //<span class="bet `+diceName+`">`+betTargetElem+`</span><span class="result `+diceName+`">`+resultElem+`</span>
+                var diceName = "dice";
+                betTargetElem = betTargetElem.replace(/class=\"/g, "class=\"boxItemDice " + winFlag);
+                resultElem = resultElem.replace(/class=\"/g, "class=\"boxItemDice " + winFlag);
+                betOn.innerHTML = "<span class=\"bet " + diceName + "\">" + betTargetElem + "</span>";
+                betResult.innerHTML = "<span class=\"result " + diceName + "\">" + resultElem + "</span>";
+                intervalUpdateHistoryList(5000);
+            }
+        }
+    });
+}
+function showOrHidden(liElem) {
+    liElem.addEventListener("click", function () {
+        var t = $(this);
+        if (t.find("div").is(":hidden")) {
+            t.find("div").show(0);
+        }
+        else {
+            t.find("div").hide(0);
+        }
+    });
+}
+function httpRequest(urlStr, cb) {
+    var xhr = new XMLHttpRequest();
+    xhr.onerror = function (err) { console.log("onerror:", err); };
+    xhr.ontimeout = function (err) { console.log("time out err:", err); };
+    xhr.onreadystatechange = function (evt) {
+        if (evt.target.status == 200) {
+            // console.log("xhr.response:", evt.target.responseText);
+            cb(evt.target.responseText);
+        }
+        else {
+            // console.log("xhr.statuts:", evt.target.status);
+        }
+    };
+    xhr.open("get", urlStr, false);
+    try {
+        xhr.send();
+    }
+    catch (e) {
+        console.log("err:", e);
+    }
+}
+//给开奖列表增加item
+function appendHistoryItem(historyItem) {
+    var itemNode = document.createElement("li");
+    var winClassStr = "";
+    var betWinNum = "\u2014";
+    var jackpotNum = "\u2014";
+    var isWin = false;
+    if (Number(historyItem.totalWin) > 0)
+        isWin = true;
+    jackpotNum = historyItem.jeckpot;
+    if (isWin) {
+        itemNode.className = "settled won";
+        winClassStr = " class=\"win\"";
+        betWinNum = historyItem.betWin;
+    }
+    else {
+        itemNode.className = "settled";
+    }
+    var betTarget = parseBetTarget(historyItem.mask);
+    var betResult = parseBetResult(historyItem.diceResultIndex);
+    var itemLuckyNumber = parseLuckyNumber(historyItem.betAmount, Number(historyItem.sha3_betBlockHash_secretNumber));
+    if (modulo == 2) {
+        diceName = "coin-flip";
+        if (betTarget[0] == 1) {
+            betTargetElem = "<i class=\"coin-option option-heads\"></i>";
+        }
+        else {
+            betTargetElem = "<i class=\"coin-option option-tails\"></i>";
+        }
+        if (betResult[0] == 1) {
+            resultElem = "<i class=\"coin-option option-heads\"></i>";
+        }
+        else {
+            resultElem = "<i class=\"coin-option option-tails\"></i>";
+        }
+    }
+    else if (modulo == 6) {
+        diceName = "dice";
+        betTargetElem = "";
+        for (var i = 0; i < betTarget.length; i++) {
+            betTargetElem += ("<i class=\"dice-option option-" + (betTarget[i] - 1) + "\"></i>");
+        }
+        resultElem = "<i class=\"dice-option option-" + (betResult[0] - 1) + "\"></i>";
+    }
+    else if (modulo == 36) {
+        diceName = "two-dice";
+        betTargetElem = betTarget.toString();
+        resultElem = "<i class=\"dice-option option-" + (betResult[0] - 1) + "\"></i><i class=\"dice-option option-" + (betResult[1] - 1) + "\"></i>";
+    }
+    else {
+        diceName = "etheroll";
+        betTargetElem = "≤" + betTarget[0];
+        resultElem = "<strong>" + betResult[0] + "</strong>";
+    }
+    itemNode.innerHTML = "<span class=\"address \">" + historyItem.gambler.substr(0, 8) + "</span><span class=\"amount\"><span class=\"ethers\">" + historyItem.betAmount + "</span></span><span class=\"bet " + diceName + "\">" + betTargetElem + "</span><span class=\"result " + diceName + "\">" + resultElem + "</span><span" + winClassStr + "><span class=\"ethers\">" + betWinNum + "</span></span><span class=\"jackpot\">" + itemLuckyNumber + "</span><button class=\"\"></button>\n                    <div><table><tbody><tr title=\"An EtherZero address which issued bet transaction\"><td>\u5730\u5740</td><td data-uri=\"http://etzscan.com/addr/" + historyItem.gambler + "\">" + historyItem.gambler + "</td></tr><tr title=\"The amount of EtherZero that was sent as a bet\"><td>\u8D4C\u6CE8</td><td><span class=\"ethers\">" + historyItem.betAmount + "<small>\u4EE5\u592A\u96F6</small></span></td></tr><tr title=\"The numbers the bet was made on\"><td>\u5C06\u8D4C\u6CE8\u62BC\u5728</td><td>" + betTarget.toString() + "</td></tr><tr title=\"Transaction hash of the bet transaction\"><td>bet trx</td><td data-uri=\"https://etzscan.com/tx/" + historyItem.betTX + "\">" + historyItem.betTX + "</td></tr><tr title=\"Hash of the secret number from the house\"><td>sha3(secret)</td><td>" + historyItem.sha3_secretNumber + "</td></tr><tr title=\"Actual secret number from the house\"><td>secret</td><td>" + historyItem.secretNumber + "</td></tr><tr title=\"number of the maximum block where \"commit\" is still considered valid\"><td>maximum block</td><td>" + historyItem.commitLastBlock + "</td></tr><tr title=\"Hash of the bet block hash and secret number\"><td>sha3(blk + secret)</td><td>" + historyItem.sha3_betBlockHash_secretNumber + "</td></tr><tr title=\"The same as above, but with modulo over available options\"><td>sha3 mod " + modulo + "</td><td>" + betResult.join("+") + "</td></tr><tr title=\"Jackpot number\"><td>jackpot</td><td>" + itemLuckyNumber + "</td></tr><tr title=\"The total winning of the bet\"><td>\u83B7\u80DC</td><td data-uri=\"https://etzscan.com/tx/" + historyItem.settleTX + "\"><span class=\"ethers\">" + historyItem.totalWin + "<small>\u4EE5\u592A\u96F6</small></span></td></tr></tbody></table>\n                    </div>";
+    if (historyItemList.children.length == 0) {
+        historyItemList.appendChild(itemNode);
+    }
+    else {
+        historyItemList.insertBefore(itemNode, historyItemList.children[0]);
+    }
+    $(itemNode).find("div").hide(0);
+    showOrHidden(itemNode);
+}
+function parseLuckyNumber(betAmount, itemEntropy) {
+    //var jackpotLuckyNum = "-";
+    //if (Number(betAmount) >= MIN_JACKPOT_BET) {
+    //    jackpotLuckyNum = (itemEntropy / modulo) % JACKPOT_MODULO;
+    //}
+    //return jackpotLuckyNum;
+    return (itemEntropy / modulo) % JACKPOT_MODULO;
+}
+//解析押注对象。比如："6, 7, 8, 9"
+function parseBetTarget(betMask) {
+    //imp 
+    var maskStr = betMask.toString(2);
+    var targets = [];
+    for (var i = 0; i < maskStr.length; i++) {
+        var charIndex = maskStr.length - i - 1;
+        if (maskStr.charAt(charIndex) == "1") {
+            if (targets.indexOf(betTargets[i]) == -1)
+                targets.push(betTargets[i]);
+        }
+    }
+    //获取元素组成的字符串
+    return targets;
+}
+//根据随机开奖结果求出结果对应的押注
+function parseBetResult(diceResultIndex) {
+    //imp 
+    return [betTargets[diceResultIndex]]; //押注值
+}
+//将每一种赌注结果用一个二进制位标识。双骰子游戏一种选择可能有多重包含结果；另外除投硬币外都可以多投
+function onChangeBetTarget(optionIndex, flag) {
+    //设置赢的概率
+    var chance = optionChance[optionIndex];
+    if (flag == "1")
+        selectedBetNum += chance;
+    else
+        selectedBetNum -= chance;
+    winRate = selectedBetNum / modulo;
+    standZoomRate = modulo / selectedBetNum;
+    diceMax = Number((5000 / (standZoomRate - 1)).toFixed(2));
+    if (diceMax > MAX_AMOUNT)
+        diceMax = MAX_AMOUNT;
+    winChance.innerText = (winRate * 100).toFixed(2) + "%";
+    //更新betMask
+    var replaceBinStr = "";
+    for (var i = 0; i < chance; i++) {
+        replaceBinStr += flag;
+    }
+    var preIndex = maskBinStr100.length;
+    for (var j = 0; j <= optionIndex; j++) {
+        preIndex -= optionChance[j];
+    }
+    var preMask = maskBinStr100.substr(0, preIndex);
+    var suffixMask = maskBinStr100.substr(preIndex + chance);
+    maskBinStr100 = preMask + replaceBinStr + suffixMask;
+    betMask = parseInt(maskBinStr100, 2);
+    console.log("mask:", maskBinStr100, " maskInt:", betMask);
+    if (betMask <= 0) //High modulo range, betMask larger than modulo.
+        return -1;
+    //更新标签
+    update();
+}
+function onChangeBetNum() {
+    amount = Number(betNum["value"]);
+    if (isNaN(amount) || amount < minAmount) {
+        amount = minAmount;
+        betNum["value"] = minAmount.toFixed(2);
+        // alert("minnum is "+minAmount);
+    }
+    if (amount > diceMax) {
+        amount = diceMax;
+        betNum["value"] = diceMax.toFixed(2);
+        // alert("maxnum is "+diceMax);
+    }
+    if (amount < 60) {
+        feeRate = 0.02;
+    }
+    else if (amount < 100) {
+        feeRate = 0.01;
+    }
+    else {
+        feeRate = 0.005;
+    }
+    if (amount > 100) {
+        jackpotFee = 1;
+    }
+    else {
+        jackpotFee = 0;
+    }
+    update();
+}
+//更新amount和betMask改变导致的标签变化
+function update() {
+    fee = amount * standZoomRate * feeRate;
+    jackpotFee = amount >= MIN_JACKPOT_BET ? JACKPOT_FEE : 0;
+    realZoomRate = (amount * standZoomRate - fee - jackpotFee) / amount;
+    //更新费率
+    feeRateLabel.innerText = (feeRate * 100).toFixed(1) + "% 费用";
+    //更新倍率
+    rateLabel.innerText = realZoomRate.toFixed(2) + "%";
+    //更新将赢得额度
+    winAmount = amount * realZoomRate;
+    winCoin.innerText = winAmount.toFixed(2);
+    if (amount < MIN_JACKPOT_BET) { //不参与抽奖
+        bigAwardDes.hidden = true;
+        luckyNumber.hidden = true;
+        bigAwardMinDes.hidden = false;
+    }
+    else {
+        bigAwardDes.hidden = false;
+        luckyNumber.hidden = false;
+        bigAwardMinDes.hidden = true;
+    }
+}
+//获取主合约方法调用的sha3
+function encodeABI(methodName) {
+    var param = [];
+    for (var _i = 1; _i < arguments.length; _i++) {
+        param[_i - 1] = arguments[_i];
+    }
+    var funcObj;
+    for (var i = 0; i < petContractABI.length; i++) {
+        funcObj = petContractABI[i];
+        if (funcObj.name == methodName && funcObj.type == "function") {
+            break;
+        }
+    }
+    return encodeSha3.apply(void 0, [funcObj].concat(param));
+}
+//获取调用合约方法所需要的inputData.
+//param必须都是字符串类型(数字类型的转成字符串再传入)
+function encodeSha3(funcObj) {
+    var param = [];
+    for (var _i = 1; _i < arguments.length; _i++) {
+        param[_i - 1] = arguments[_i];
+    }
+    if (!funcObj)
+        return "";
+    //系列化方法名
+    var methodStr = funcObj.name + "(";
+    if (funcObj.inputs) {
+        for (var j = 0; j < funcObj.inputs.length; j++) {
+            methodStr = methodStr + funcObj.inputs[j].type;
+            if (j < funcObj.inputs.length - 1) {
+                methodStr = methodStr + ",";
+            }
+        }
+    }
+    methodStr = methodStr + ")";
+    var methodCode = "0x" + keccak256(methodStr);
+    methodCode = methodCode.substr(0, 10);
+    var inputData = methodCode;
+    var paramType;
+    var preStr;
+    //追加参数
+    var dynamicData = "";
+    for (var k = 0; k < param.length; k++) {
+        //console.log("typeof(param[k]):"+typeof(param[k]));
+        paramType = typeof (param[k]);
+        if (paramType == "number") { //转成16进制字符串
+            if (param[k] >= 0) {
+                param[k] = param[k].toString(16);
+                preStr = zeroStr64.substr(0, 64 - param[k].length);
+            }
+            else {
+                var negativeVHx = (-param[k]).toString(16);
+                var carryV = "0x1"; //negativeVHx的十六进制进位值
+                for (var i = 0; i < negativeVHx.length; i++) {
+                    carryV = carryV + "0";
+                }
+                param[k] = (parseInt(carryV) + param[k]).toString(16);
+                //param[k] = "f";
+                preStr = fStr64.substr(0, 64 - param[k].length);
+            }
+        }
+        else if (paramType == "string") { //最长32个字符
+            if (param[k].indexOf("0x") == 0) {
+                param[k] = param[k].substr(2);
+                preStr = zeroStr64.substr(0, 64 - param[k].length);
+            }
+            else {
+                var elemData = "";
+                for (var n = 0; n < param[k].length; n++) {
+                    var elem = param[k].charCodeAt(n).toString(16);
+                    elemData += elem;
+                }
+                //系列化偏移量
+                param[k] = (funcObj.inputs.length * 32 + dynamicData.length / 2).toString(16);
+                preStr = zeroStr64.substr(0, 64 - param[k].length);
+                elemData += zeroStr64.substr(0, 64 - elemData.length);
+                //系列化数组长度
+                var elemNum = param[k].length.toString(16);
+                dynamicData = dynamicData + zeroStr64.substr(0, 64 - elemNum.length) + elemNum;
+                //系列化数组元素
+                dynamicData = dynamicData + elemData;
+            }
+        }
+        else if (paramType == "boolean") {
+            preStr = ""; //t 待补充
+        }
+        else if (paramType == "object") {
+            if (Array.isArray(param[k])) { //数组类型只记偏移量，具体元素值通过dynamicData追加到inputData后面
+                var elemData = "";
+                if (funcObj.inputs[k].type.indexOf("int") != -1) { //整型
+                    for (var n = 0; n < param[k].length; n++) {
+                        var elem = parseInt(param[k][n]).toString(16);
+                        elemData += (zeroStr64.substr(0, 64 - elem.length) + elem);
+                    }
+                }
+                else if (funcObj.inputs[k].type == "address[]") {
+                    for (var n = 0; n < param[k].length; n++) {
+                        var elem = String(param[k][n]);
+                        if (elem.indexOf("0x") == 0) {
+                            elem = elem.substr(2);
+                        }
+                        elemData += (zeroStr64.substr(0, 64 - elem.length) + elem);
+                    }
+                }
+                else {
+                    elemData = ""; //t 待补充
+                }
+                //系列化偏移量
+                param[k] = (funcObj.inputs.length * 32 + dynamicData.length / 2).toString(16);
+                preStr = zeroStr64.substr(0, 64 - param[k].length);
+                //系列化数组长度
+                var elemNum = param[k].length.toString(16);
+                dynamicData = dynamicData + zeroStr64.substr(0, 64 - elemNum.length) + elemNum;
+                //系列化数组元素
+                dynamicData = dynamicData + elemData;
+            }
+            else {
+                preStr = ""; //t 待补充
+            }
+        }
+        else {
+            preStr = ""; //t 待补充
+        }
+        inputData = inputData + preStr + param[k];
+    }
+    inputData = inputData + dynamicData;
+    // console.log("input:", inputData);
+    return inputData;
+}
+//# sourceMappingURL=main_single_dice.js.map

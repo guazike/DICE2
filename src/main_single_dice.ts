@@ -23,7 +23,7 @@ const optionChance = [1,1,1,1,1,1];//每个押注目标的组合数
 const MIN_JACKPOT_BET = 100;
 const JACKPOT_FEE = 1;
 const JACKPOT_MODULO = 1000;
-const MAX_MASK_MODULO = 40;
+const MAX_MASK_MODULO = 40; 
 const MAX_AMOUNT = 2000;//最大下注额diceMax的上限
 
 var winRate = 0.5;//赢的概率

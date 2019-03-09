@@ -177,7 +177,7 @@ function onSelectOption(i){
         onChangeBetTarget(i, "1");
     }
 }
-
+ 
 function initGame(){
     //初始化40个二进制字符串
     for(let z=0; z<40; z++){

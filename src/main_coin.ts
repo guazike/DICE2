@@ -13,7 +13,7 @@ const providerURL = "http://54.205.230.215:9646";
 // const serverURL = "http://localhost:6769/";//t 
 // const providerURL = "http://localhost:9646";//t  
 
-const MUNITE_3 = 3*60*1000;
+const MUNITE_3 = 3*60*1000; 
 const targetNetwork = "90";
 var platform = platform(); 
 var etz_web3;
